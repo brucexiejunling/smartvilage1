@@ -18,8 +18,10 @@ const getUser = async(ctx, next)=> {
     if(!userId) {
         throw new ApiError(ApiErrorNames.USER_NOT_LOGIN)
     }
+    console.log('getUser userId', userId)
     try {
         let result = await findById(userId).lean().exec()
+        console.log('findById result', result)
         if(!result) {
             throw new ApiError(ApiErrorNames.USER_NOT_EXIST)
         }
@@ -229,7 +231,9 @@ const userLogin = async(ctx, next)=> {
             throw new ApiError(ApiErrorNames.USER_NOT_EXIST)
         } else {
             if(md5(password) === user.password) {
+                console.log('userLogin user', user)
                 ctx.session.userId = user._id
+                console.log('userLogin userId', ctx.session.userId)
                 ctx.body = {}
             } else {
                 throw new ApiError(ApiErrorNames.PASSWORD_INCORRECT)
