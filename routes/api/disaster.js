@@ -1,5 +1,5 @@
 const router = require('koa-router')()
-const DisasterController = require('../../app/controllers/Disaster-controller');
+const DisasterController = require('../../app/controllers/disaster-controller');
 
 router.get('/list', DisasterController.getDisasters);
 

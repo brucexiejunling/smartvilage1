@@ -1,5 +1,5 @@
 const router = require('koa-router')()
-const QuestionController = require('../../app/controllers/Question-controller');
+const QuestionController = require('../../app/controllers/question-controller');
 
 router.get('/list', QuestionController.getQuestions);
 
