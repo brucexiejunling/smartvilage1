@@ -21,10 +21,8 @@ const getUser = async(ctx, next)=> {
     if(!userId) {
         throw new ApiError(ApiErrorNames.USER_NOT_LOGIN)
     }
-    console.log('getUser userId', userId)
     try {
         let result = await findById(userId).lean().exec()
-        console.log('findById result', result)
         if(!result) {
             throw new ApiError(ApiErrorNames.USER_NOT_EXIST)
         }
