@@ -21,6 +21,7 @@ const loginChecker = require('./middlewares/login-checker')
 
 const session = require("./app/sdk/session/session");
 const RedisStore = require("./app/sdk/session/redisStore");
+const LocalStore = require("./app/sdk/session/store")
 
 const gzip = require('koa-gzip');
 
@@ -56,7 +57,7 @@ app.use(async (ctx, next) => {
 
 app.use(session({
   key: 'SESSIONID',
-  store: new RedisStore()
+  store: new LocalStore()
 }));
 
 app.use(responseFormatter('^/api'));
