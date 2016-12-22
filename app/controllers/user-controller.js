@@ -234,9 +234,7 @@ const userLogin = async(ctx, next)=> {
             throw new ApiError(ApiErrorNames.USER_NOT_EXIST)
         } else {
             if(md5(password) === user.password) {
-                console.log('userLogin user', user)
                 ctx.session.userId = user._id
-                console.log('userLogin userId', ctx.session.userId)
                 ctx.body = {}
             } else {
                 throw new ApiError(ApiErrorNames.PASSWORD_INCORRECT)
