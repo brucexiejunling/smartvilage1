@@ -5,6 +5,9 @@ const ApiError = require('../error/api-error');
 const ApiErrorNames = require('../error/api-error-names');
 
 const encode = (str)=> {
+    if(!str || str.length <= 8) {
+        return str;
+    }
     return str.replace(/(\d{4})(\d+)(\d{4})/, (a, b, c, d)=> {
         let x = '', i=0;
         while(i++<c.length) {
@@ -28,7 +31,7 @@ const getUser = async(ctx, next)=> {
         result.idNumber = encode(result.idNumber)
         ctx.body = result
     } catch(e) {
-        throw new ApiError(ApiErrorNames.USER_NOT_EXIST)
+        throw new ApiError(ApiErrorNames.UNKNOW_ERROR)
     }
 }
 
