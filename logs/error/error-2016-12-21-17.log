@@ -1,0 +1,102 @@
+[2016-12-21 17:26:39.117] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/file/list?type=image&env=front
+request client ip:  ::1
+request query:  {"type":"image","env":"front"}
+response time: 6
+err name: TypeError
+err message: Path must be a string. Received [Function]
+err stack: TypeError: Path must be a string. Received [Function]
+    at assertPath (path.js:7:11)
+    at Object.join (path.js:1211:7)
+    at /Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:76:34
+    at next (native)
+    at step (/Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:3:191)
+    at /Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:3:437
+    at /Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:3:99
+    at listFiles (/Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:73:7)
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+    at /Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:321:16
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:361:12)
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+    at /Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:321:16
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at /Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:326:31)
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+*************** error log end ***************
+
+[2016-12-21 17:26:47.540] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/file/list?type=image&env=front
+request client ip:  ::1
+request query:  {"type":"image","env":"front"}
+response time: 1
+err name: TypeError
+err message: Path must be a string. Received [Function]
+err stack: TypeError: Path must be a string. Received [Function]
+    at assertPath (path.js:7:11)
+    at Object.join (path.js:1211:7)
+    at /Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:76:34
+    at next (native)
+    at step (/Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:3:191)
+    at /Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:3:437
+    at /Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:3:99
+    at listFiles (/Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:73:7)
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+    at /Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:321:16
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:361:12)
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+    at /Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:321:16
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at /Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:326:31)
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+*************** error log end ***************
+
+[2016-12-21 17:26:48.291] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/file/list?type=image&env=front
+request client ip:  ::1
+request query:  {"type":"image","env":"front"}
+response time: 2
+err name: TypeError
+err message: Path must be a string. Received [Function]
+err stack: TypeError: Path must be a string. Received [Function]
+    at assertPath (path.js:7:11)
+    at Object.join (path.js:1211:7)
+    at /Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:76:34
+    at next (native)
+    at step (/Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:3:191)
+    at /Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:3:437
+    at /Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:3:99
+    at listFiles (/Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:73:7)
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+    at /Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:321:16
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:361:12)
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+    at /Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:321:16
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at /Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:326:31)
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+*************** error log end ***************
+

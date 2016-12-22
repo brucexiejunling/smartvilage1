@@ -1,0 +1,54 @@
+doctype html
+html
+    head
+        meta(charset="UTF-8")
+        title= '后台管理系统'
+        link(rel='stylesheet', href='/stylesheets/admin/style.min.css')
+        link(rel='stylesheet', href='/stylesheets/reset.css')
+        script(src="//cdn.bootcss.com/react/15.3.2/react.min.js")
+        script(src="//cdn.bootcss.com/react/15.3.2/react-dom.min.js")
+    body
+        div#page-wrap
+            input#J_page_name(type='hidden' value=pageName)
+            div.header
+                span.title 智慧乡村管理平台
+            div.navs
+                div.groups
+                    div.title 系统设置
+                    div.links
+                        a#zhsz(href='/admin/zhsz') 账号设置
+                        a#yhgl(href='/admin/yhgl') 用户管理
+                        a#smsh(href='/admin/smsh') 实名审核
+                        a#bmgl(href='/admin/bmgl') 部门管理
+                div.groups
+                    div.title 页面管理
+                    div.links
+                        a#home(href='/admin/home') 网站首页
+                        a#jzfp(href='/admin/jzfp') 精准扶贫
+                        a#ddjs(href='/admin/ddjs') 党的建设
+                        a#wybs(href='/admin/wybs') 我要办事
+                        a#zxxf(href='/admin/zxxf') 在线信访
+                        a#kjzf(href='/admin/kjzf') 科技致富
+                        a#msdy(href='/admin/msdy') 民生答疑
+                        a#njzx(href='/admin/njzx') 农技在线
+                div.groups
+                    div.title 资源空间
+                    div.links
+                        a#tpgl(href='/admin/tpgl') 图片管理
+                        a#spgl(href='/admin/spgl') 视频管理
+                        a#ypgl(href='/admin/ypgl') 音频管理
+                        a#wdgl(href='/admin/wdgl') 文档管理
+
+            div.content
+                div.top-title=title
+                div#content_holder
+                    div.expecting 功能暂未上线，敬请期待！
+                    div.css-loading
+                        div.css-dot
+                        div.css-dot
+                        div.css-dot
+                        div.css-dot
+                        div.css-dot
+            div.footer
+            block content
+        script(src='/javascripts/admin.js')

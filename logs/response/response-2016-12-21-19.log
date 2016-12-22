@@ -1,0 +1,12 @@
+[2016-12-21 19:20:23.592] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/file/list?type=image&env=admin
+request client ip:  ::1
+request query:  {"type":"image","env":"admin"}
+response time: 8
+response status: 200
+response body: 
+{"code":0,"message":"success","data":{"data":[{"url":"http://test.qq.com:3000/images/2016-12-19/1x.jpg"},{"url":"http://test.qq.com:3000/images/2016-12-19/2x.jpg"},{"url":"http://test.qq.com:3000/images/2016-12-19/3x.jpg"},{"url":"http://test.qq.com:3000/images/2016-12-19/icon-me.png"},{"url":"http://test.qq.com:3000/images/2016-12-20/1x.jpg"},{"url":"http://test.qq.com:3000/images/2016-12-20/Group 22.png"},{"url":"http://test.qq.com:3000/images/2016-12-20/粉丝趴双12页头.png"},{"url":"http://test.qq.com:3000/images/2016-12-20/红包.png"},{"url":"http://test.qq.com:3000/images/2016-12-21/111.png"},{"url":"http://test.qq.com:3000/images/2016-12-21/left.png"}],"total":10}}
+*************** response log end ***************
+

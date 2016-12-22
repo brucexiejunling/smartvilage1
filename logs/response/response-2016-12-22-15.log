@@ -1,0 +1,48 @@
+[2016-12-22 15:41:58.623] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /browserConnection/buildInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 3
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2016-12-22 15:42:03.631] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /admin/xjwz
+request client ip:  ::1
+request query:  {}
+response time: 292
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><meta charset=\"UTF-8\"><title>新建文章</title><link rel=\"stylesheet\" href=\"/stylesheets/reset.css\"><link rel=\"stylesheet\" href=\"/stylesheets/admin/editor.min.css\"><script type=\"text/javascript\" charset=\"utf-8\" src=\"/ueditor/ueditor.config.js\"></script><script type=\"text/javascript\" charset=\"utf-8\" src=\"/ueditor/ueditor.all.min.js\"></script><script type=\"text/javascript\" charset=\"utf-8\" src=\"/ueditor/lang/zh-cn/zh-cn.js\"></script></head><body><div id=\"page-wrap\"><div id=\"container\"></div></div><script src=\"/javascripts/editor.js\"></script></body></html>"
+*************** response log end ***************
+
+[2016-12-22 15:42:03.955] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /ueditor/ue?action=config&&noCache=1482392523942
+request client ip:  ::1
+request query:  {"action":"config","":"","noCache":"1482392523942"}
+response time: 5
+response status: 302
+response body: 
+"Redirecting to <a href=\"/ueditor/ueditor.config.json\">/ueditor/ueditor.config.json</a>."
+*************** response log end ***************
+
+[2016-12-22 15:42:04.155] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+

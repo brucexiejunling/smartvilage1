@@ -1,0 +1,351 @@
+[2016-12-21 22:20:28.213] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/file/delete?type=image&env=admin
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"url":"http://test.qq.com:3000/images/2016-12-20/红包.png"}
+response time: 2
+err name: TypeError
+err message: Cannot read property 'url' of undefined
+err stack: TypeError: Cannot read property 'url' of undefined
+    at /Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:124:20
+    at next (native)
+    at step (/Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:3:191)
+    at /Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:3:437
+    at /Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:3:99
+    at deleteFile (/Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:120:7)
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+    at /Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:321:16
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:361:12)
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+    at /Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:321:16
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at /Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:326:31)
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+    at /Users/brucetse/work/self/smartvilage/middlewares/login-checker.js:11:19
+    at next (native)
+*************** error log end ***************
+
+[2016-12-21 22:21:04.075] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/file/delete?type=image&env=admin
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"url":"http://test.qq.com:3000/images/2016-12-20/红包.png"}
+response time: 2
+err name: ReferenceError
+err message: filepath is not defined
+err stack: ReferenceError: filepath is not defined
+    at /Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:121:29
+    at next (native)
+    at step (/Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:3:191)
+    at /Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:3:437
+    at /Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:3:99
+    at deleteFile (/Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:120:7)
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+    at /Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:321:16
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:361:12)
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+    at /Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:321:16
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at /Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:326:31)
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+    at /Users/brucetse/work/self/smartvilage/middlewares/login-checker.js:11:19
+    at next (native)
+*************** error log end ***************
+
+[2016-12-21 22:22:45.796] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/file/delete?type=image&env=admin
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"url":"http://test.qq.com:3000/images/2016-12-20/红包.png"}
+response time: 5
+err name: TypeError
+err message: Cannot read property 'url' of undefined
+err stack: TypeError: Cannot read property 'url' of undefined
+    at /Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:125:20
+    at next (native)
+    at step (/Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:3:191)
+    at /Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:3:437
+    at /Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:3:99
+    at deleteFile (/Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:120:7)
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+    at /Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:321:16
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:361:12)
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+    at /Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:321:16
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at /Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:326:31)
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+    at /Users/brucetse/work/self/smartvilage/middlewares/login-checker.js:11:19
+    at next (native)
+*************** error log end ***************
+
+[2016-12-21 22:23:18.849] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/file/delete?type=image&env=admin
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"url":"http://test.qq.com:3000/images/2016-12-20/红包.png"}
+response time: 5
+err name: TypeError
+err message: Cannot read property 'url' of undefined
+err stack: TypeError: Cannot read property 'url' of undefined
+    at /Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:125:20
+    at next (native)
+    at step (/Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:3:191)
+    at /Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:3:437
+    at /Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:3:99
+    at deleteFile (/Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:120:7)
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+    at /Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:321:16
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:361:12)
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+    at /Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:321:16
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at /Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:326:31)
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+    at /Users/brucetse/work/self/smartvilage/middlewares/login-checker.js:11:19
+    at next (native)
+*************** error log end ***************
+
+[2016-12-21 22:23:57.653] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/file/delete?type=image&env=admin
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"url":"http://test.qq.com:3000/images/2016-12-20/红包.png"}
+response time: 6
+err name: TypeError
+err message: Cannot read property 'url' of undefined
+err stack: TypeError: Cannot read property 'url' of undefined
+    at /Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:126:20
+    at next (native)
+    at step (/Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:3:191)
+    at /Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:3:437
+    at /Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:3:99
+    at deleteFile (/Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:120:7)
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+    at /Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:321:16
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:361:12)
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+    at /Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:321:16
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at /Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:326:31)
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+    at /Users/brucetse/work/self/smartvilage/middlewares/login-checker.js:11:19
+    at next (native)
+*************** error log end ***************
+
+[2016-12-21 22:24:30.858] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/file/delete?type=image&env=admin
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"url":"http://test.qq.com:3000/images/2016-12-20/红包.png"}
+response time: 2
+err name: ReferenceError
+err message: filepath is not defined
+err stack: ReferenceError: filepath is not defined
+    at /Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:125:9
+    at next (native)
+    at step (/Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:3:191)
+    at /Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:3:437
+    at /Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:3:99
+    at deleteFile (/Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:120:7)
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+    at /Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:321:16
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:361:12)
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+    at /Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:321:16
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at /Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:326:31)
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+    at /Users/brucetse/work/self/smartvilage/middlewares/login-checker.js:11:19
+    at next (native)
+*************** error log end ***************
+
+[2016-12-21 22:24:58.940] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/file/delete?type=image&env=admin
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"url":"http://test.qq.com:3000/images/2016-12-21/111.png"}
+response time: 7
+err name: unknowError
+err message: 未知错误
+err stack: unknowError: 未知错误
+    at ApiError (/Users/brucetse/work/self/smartvilage/app/error/api-error.js:9:9)
+    at /Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:139:19
+    at next (native)
+    at step (/Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:3:191)
+    at /Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:3:437
+    at /Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:3:99
+    at deleteFile (/Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:120:7)
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+    at /Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:321:16
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:361:12)
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+    at /Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:321:16
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at /Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:326:31)
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+    at /Users/brucetse/work/self/smartvilage/middlewares/login-checker.js:11:19
+*************** error log end ***************
+
+[2016-12-21 22:26:15.500] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/file/delete?type=image&env=admin
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"url":"http://test.qq.com:3000/images/2016-12-20/粉丝趴双12页头.png"}
+response time: 25
+err name: unknowError
+err message: 未知错误
+err stack: unknowError: 未知错误
+    at ApiError (/Users/brucetse/work/self/smartvilage/app/error/api-error.js:9:9)
+    at /Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:140:19
+    at next (native)
+    at step (/Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:3:191)
+    at /Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:3:437
+    at /Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:3:99
+    at deleteFile (/Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:120:7)
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+    at /Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:321:16
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:361:12)
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+    at /Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:321:16
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at /Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:326:31)
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+    at /Users/brucetse/work/self/smartvilage/middlewares/login-checker.js:11:19
+*************** error log end ***************
+
+[2016-12-21 22:27:32.422] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/file/delete?type=image&env=admin
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"url":"http://test.qq.com:3000/images/2016-12-20/1x.jpg"}
+response time: 5
+err name: unknowError
+err message: 未知错误
+err stack: unknowError: 未知错误
+    at ApiError (/Users/brucetse/work/self/smartvilage/app/error/api-error.js:9:9)
+    at /Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:140:19
+    at next (native)
+    at step (/Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:3:191)
+    at /Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:3:437
+    at /Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:3:99
+    at deleteFile (/Users/brucetse/work/self/smartvilage/app/controllers/file-controller.js:120:7)
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+    at /Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:321:16
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:361:12)
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+    at /Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:321:16
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at /Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:326:31)
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+    at /Users/brucetse/work/self/smartvilage/middlewares/login-checker.js:11:19
+*************** error log end ***************
+
+[2016-12-21 22:54:22.979] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/message/captcha?phone=13580514437&action=register&callback=reqwest_1482332056600
+request client ip:  ::1
+request query:  {"phone":"13580514437","action":"register","callback":"reqwest_1482332056600"}
+response time: 5
+err name: userAlreadyExist
+err message: 该手机已被注册
+err stack: userAlreadyExist: 该手机已被注册
+    at ApiError (/Users/brucetse/work/self/smartvilage/app/error/api-error.js:9:9)
+    at /Users/brucetse/work/self/smartvilage/app/controllers/message-controller.js:56:19
+    at next (native)
+    at step (/Users/brucetse/work/self/smartvilage/app/controllers/message-controller.js:61:191)
+    at /Users/brucetse/work/self/smartvilage/app/controllers/message-controller.js:61:361
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+*************** error log end ***************
+
+[2016-12-21 22:59:24.837] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/message/captcha?phone=13580514437&action=register&callback=reqwest_1482332343041
+request client ip:  ::ffff:127.0.0.1
+request query:  {"phone":"13580514437","action":"register","callback":"reqwest_1482332343041"}
+response time: 7
+err name: userAlreadyExist
+err message: 该手机已被注册
+err stack: userAlreadyExist: 该手机已被注册
+    at ApiError (/Users/brucetse/work/self/smartvilage/app/error/api-error.js:9:9)
+    at /Users/brucetse/work/self/smartvilage/app/controllers/message-controller.js:56:19
+    at next (native)
+    at step (/Users/brucetse/work/self/smartvilage/app/controllers/message-controller.js:61:191)
+    at /Users/brucetse/work/self/smartvilage/app/controllers/message-controller.js:61:361
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+*************** error log end ***************
+

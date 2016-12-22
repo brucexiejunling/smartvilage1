@@ -1,0 +1,52 @@
+[2016-12-21 23:00:31.388] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/message/captcha?phone=13580514437&action=register&callback=reqwest_1482332343041
+request client ip:  ::ffff:127.0.0.1
+request query:  {"phone":"13580514437","action":"register","callback":"reqwest_1482332343041"}
+response time: 4
+err name: userAlreadyExist
+err message: 该手机已被注册
+err stack: userAlreadyExist: 该手机已被注册
+    at ApiError (/Users/brucetse/work/self/smartvilage/app/error/api-error.js:9:9)
+    at /Users/brucetse/work/self/smartvilage/app/controllers/message-controller.js:56:19
+    at next (native)
+    at step (/Users/brucetse/work/self/smartvilage/app/controllers/message-controller.js:61:191)
+    at /Users/brucetse/work/self/smartvilage/app/controllers/message-controller.js:61:361
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+*************** error log end ***************
+
+[2016-12-21 23:40:39.286] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/article/save
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+err name: paramIllegal
+err message: 参数不正确
+err stack: paramIllegal: 参数不正确
+    at ApiError (/Users/brucetse/work/self/smartvilage/app/error/api-error.js:9:9)
+    at /Users/brucetse/work/self/smartvilage/app/controllers/article-controller.js:134:15
+    at next (native)
+    at step (/Users/brucetse/work/self/smartvilage/app/controllers/article-controller.js:5:191)
+    at /Users/brucetse/work/self/smartvilage/app/controllers/article-controller.js:5:437
+    at /Users/brucetse/work/self/smartvilage/app/controllers/article-controller.js:5:99
+    at updateArticle (/Users/brucetse/work/self/smartvilage/app/controllers/article-controller.js:106:7)
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+    at /Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:321:16
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:361:12)
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+    at /Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:321:16
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at /Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-router/lib/router.js:326:31)
+    at dispatch (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/brucetse/work/self/smartvilage/node_modules/koa-compose/index.js:45:18)
+    at /Users/brucetse/work/self/smartvilage/middlewares/login-checker.js:11:19
+*************** error log end ***************
+
