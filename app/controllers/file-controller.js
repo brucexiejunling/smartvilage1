@@ -11,7 +11,7 @@ let opts = {
     "url": '/',
     "storeDir": 'images',
     "provider": "local",
-    "mimetypes": ['image/png'], // 如果没有配置,将不进行类型检查 http://www.freeformatter.com/mime-types-list.html
+    "mimetypes": ['image/png'], // 如果没有配置,将不进行类型检查 www.freeformatter.com/mime-types-list.html
     "folder": "public",
     "urlPath": "/"
 }
@@ -69,7 +69,7 @@ const uploadFile = async(ctx, next)=> {
     const originName = Object.keys(file)[0], url = file[originName];
     let resp = {
         name: originName,
-        url: `http://${config.hostname}${url}`,
+        url: `${config.hostname}${url}`,
     }
     ctx.body = resp
     return;
@@ -99,7 +99,7 @@ const listFiles = async(ctx, next)=> {
         try {
             files = fs.readdirSync(filepath)
             files.forEach((file)=> {
-                list.push({url: `http://${config.hostname}/${subPath}/${dir}/${file}`})
+                list.push({url: `${config.hostname}/${subPath}/${dir}/${file}`})
             })
         } catch (e) {
             ctx.body = {

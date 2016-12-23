@@ -49,7 +49,7 @@ const getArticle = async(ctx, next)=> {
     if(id) {
         try{
             const result = await findById(id).select(selects).lean().exec()
-            const url = `http://${config.hostname}/wzxq?id=${result._id}`
+            const url = `${config.hostname}/wzxq?id=${result._id}`
             result.url = url
             ctx.body = result
         } catch(e) {
@@ -72,7 +72,7 @@ const getArticle = async(ctx, next)=> {
                 let count = await findByIds(ids).count()
                 result = await findByIds(ids).sort({_id: -1}).skip(offset).limit(pageSize).select(selects).lean().exec()
                 result.forEach((item)=> {
-                    const url = `http://${config.hostname}/wzxq?id=${item._id}`
+                    const url = `${config.hostname}/wzxq?id=${item._id}`
                     item.keywords = item.keywords.join('、')
                     item.url = url
                 })
@@ -89,7 +89,7 @@ const getArticle = async(ctx, next)=> {
                 let count = await find(Object.assign({}, query)).count()
                 result = await find(Object.assign({}, query)).sort({_id: -1}).skip(offset).limit(pageSize).select(selects).lean().exec()
                 result.forEach((item)=> {
-                    const url = `http://${config.hostname}/wzxq?id=${item._id}`
+                    const url = `${config.hostname}/wzxq?id=${item._id}`
                     item.keywords = item.keywords.join('、')
                     item.url = url
                 })
@@ -121,7 +121,7 @@ const getArticleFeeds = async(ctx, next)=> {
             count = await findByIds(ids).count()
             result = await findByIds(ids).sort({_id: -1}).skip(offset).limit(pageSize).select("_id title desc date cover").lean().exec()
             result.forEach((item)=> {
-                const url = `http://${config.hostname}/wzxq?id=${item._id}`
+                const url = `${config.hostname}/wzxq?id=${item._id}`
                 item.url = url
             })
             ctx.body = {
@@ -137,7 +137,7 @@ const getArticleFeeds = async(ctx, next)=> {
             count = await find(Object.assign({}, query)).count()
             result = await find(Object.assign({}, query)).sort({_id: -1}).skip(offset).limit(pageSize).select("_id title desc date cover").lean().exec()
             result.forEach((item)=> {
-                const url = `/wzxq?id=${item._id}`
+                const url = `${config.hostname}/wzxq?id=${item._id}`
                 item.url = url
             })
             ctx.body = {

@@ -49,7 +49,7 @@ const uploader = opts => {
         let resp = {
             state: "SUCCESS",
             title: originName,
-            url: `http://${config.hostname}${url}`,
+            url: `${config.hostname}${url}`,
             original: originName
         }
         ctx.body = JSON.stringify(resp);

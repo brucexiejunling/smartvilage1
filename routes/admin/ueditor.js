@@ -8,7 +8,7 @@ let options = {
     "url": '/ueditor/ue',
     "storeDir": 'images',
     "provider": "local",
-    "mimetypes": ['image/png'], // 如果没有配置,将不进行类型检查 http://www.freeformatter.com/mime-types-list.html
+    "mimetypes": ['image/png'], // 如果没有配置,将不进行类型检查 www.freeformatter.com/mime-types-list.html
     "folder": "public",
     "urlPath": "/"
 }
@@ -36,7 +36,7 @@ const getHandler = async(ctx, next)=> {
             try {
                 files = fs.readdirSync(filepath)
                 files.forEach((file)=> {
-                    list.push({url: `http://${config.hostname}/images/${dir}/${file}`})
+                    list.push({url: `${config.hostname}/images/${dir}/${file}`})
                 })
             } catch (e) {
 
