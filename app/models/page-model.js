@@ -8,6 +8,7 @@ let PageSchema = new mongoose.Schema({
     group: {type: String},
     url: {type: String},
     banners: [{img: String, url: String}],
+    feeds: [{type: String}],
     tabs: {type: Array},
     types: {type: Object}
 })
