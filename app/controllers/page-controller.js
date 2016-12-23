@@ -50,8 +50,10 @@ const updatePage = async(ctx, next)=> {
     } else if(name) {
         query = {name}
     }
+    console.log('query', query)
     if(query) {
         let data = param.data
+        console.log('data', data, typeof data)
         if(typeof data === 'string') {
             try {
                 data = JSON.parse(data)
@@ -59,6 +61,7 @@ const updatePage = async(ctx, next)=> {
                 data = null;
             }
         }
+        console.log('daa---', data, typeof data)
         if(data) {
             try {
                 const result = await update(query, data)
