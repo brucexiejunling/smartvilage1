@@ -1,4 +1,4 @@
-import {find, findById, update, remove, create}  from '../models/article-model'
+import {find, findById, findByIds, update, remove, create}  from '../models/article-model'
 const config = require('../../config/index')
 const ApiError = require('../error/api-error');
 const ApiErrorNames = require('../error/api-error-names');
@@ -56,18 +56,88 @@ const getArticle = async(ctx, next)=> {
             throw new ApiError(ApiErrorNames.ARTICLE_NOT_EXIST);
         }
     } else {
-        const query = getCommonQueries(ctx.query)
         let pageSize = ctx.query.pageSize, offset = ctx.query.offset; //支持分页
         let result = []
         pageSize = pageSize === undefined ? 100 : parseInt(pageSize)
         offset = offset === undefined ? 0 : parseInt(offset)
 
+        let ids;
         try {
-            let count = await find(Object.assign({}, query)).count()
-            result = await find(Object.assign({}, query)).sort({_id: -1}).skip(offset).limit(pageSize).select(selects).lean().exec()
+           ids = parse(ctx.query.ids)
+        } catch (e) {
+            ids = null;
+        }
+        if(ids && ids.length > 0) {
+            try {
+                let count = await findByIds(ids).count()
+                result = await findByIds(ids).sort({_id: -1}).skip(offset).limit(pageSize).select(selects).lean().exec()
+                result.forEach((item)=> {
+                    const url = `http://${config.hostname}/wzxq?id=${item._id}`
+                    item.keywords = item.keywords.join('、')
+                    item.url = url
+                })
+                ctx.body = {
+                    total: count,
+                    data: result
+                }
+            } catch(e) {
+                throw new ApiError(ApiErrorNames.UNKNOW_ERROR)
+            }
+        } else {
+            const query = getCommonQueries(ctx.query)
+            try {
+                let count = await find(Object.assign({}, query)).count()
+                result = await find(Object.assign({}, query)).sort({_id: -1}).skip(offset).limit(pageSize).select(selects).lean().exec()
+                result.forEach((item)=> {
+                    const url = `http://${config.hostname}/wzxq?id=${item._id}`
+                    item.keywords = item.keywords.join('、')
+                    item.url = url
+                })
+                ctx.body = {
+                    total: count,
+                    data: result
+                }
+            } catch(e) {
+                throw new ApiError(ApiErrorNames.UNKNOW_ERROR)
+            }
+        }
+    }
+}
+
+const getArticleFeeds = async(ctx, next)=> {
+    let result = [], count = 0;
+    let pageSize = ctx.query.pageSize, offset = ctx.query.offset; //支持分页
+    pageSize = pageSize === undefined ? 100 : parseInt(pageSize)
+    offset = offset === undefined ? 0 : parseInt(offset)
+
+    let ids;
+    try {
+        ids = JSON.parse(ctx.query.ids)
+    } catch (e) {
+        ids = null;
+    }
+    if(ids && ids.length > 0) {
+        try {
+            count = await findByIds(ids).count()
+            result = await findByIds(ids).sort({_id: -1}).skip(offset).limit(pageSize).select("_id title desc date cover").lean().exec()
             result.forEach((item)=> {
                 const url = `http://${config.hostname}/wzxq?id=${item._id}`
-                item.keywords = item.keywords.join('、')
+                item.url = url
+            })
+            ctx.body = {
+                total: count,
+                data: result
+            }
+        } catch (e) {
+            throw new ApiError(ApiErrorNames.UNKNOW_ERROR)
+        }
+    } else {
+        const query = getCommonQueries(ctx.query)
+        try {
+            count = await find(Object.assign({}, query)).count()
+            result = await find(Object.assign({}, query)).sort({_id: -1}).skip(offset).limit(pageSize).select("_id title desc date cover").lean().exec()
+            result.forEach((item)=> {
+                const url = `/wzxq?id=${item._id}`
                 item.url = url
             })
             ctx.body = {
@@ -77,29 +147,6 @@ const getArticle = async(ctx, next)=> {
         } catch(e) {
             throw new ApiError(ApiErrorNames.UNKNOW_ERROR)
         }
-    }
-}
-
-const getArticleFeeds = async(ctx, next)=> {
-    const query = getCommonQueries(ctx.query)
-    let pageSize = ctx.query.pageSize, offset = ctx.query.offset; //支持分页
-    pageSize = pageSize === undefined ? 100 : parseInt(pageSize)
-    offset = offset === undefined ? 0 : parseInt(offset)
-
-    try {
-        let count = await find(Object.assign({}, query)).count()
-        let result = []
-        result = await find(Object.assign({}, query)).sort({_id: -1}).skip(offset).limit(pageSize).select("_id title desc date cover").lean().exec()
-        result.forEach((item)=> {
-            const url = `/wzxq?id=${item._id}`
-            item.url = url
-        })
-        ctx.body = {
-            total: count,
-            data: result
-        }
-    } catch(e) {
-        throw new ApiError(ApiErrorNames.UNKNOW_ERROR)
     }
 }
 

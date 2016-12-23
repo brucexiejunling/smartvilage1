@@ -20,6 +20,10 @@ export function findById(id) {
     return ArticleModel.findById(id)
 }
 
+export function findByIds(ids) {
+    return ArticleModel.find({_id: {$in: ids}});
+}
+
 export function find(query) {
     let keywords = query.keywords
     let page, tab, type;

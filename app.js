@@ -27,10 +27,11 @@ const session = require("./app/sdk/session/session");
 const RedisStore = require("./app/sdk/session/redisStore");
 //const LocalStore = require("./app/sdk/session/store")
 
-const gzip = require('koa-gzip');
+//在nginx处做gzip
+//const gzip = require('koa-gzip');
+//app.use(convert(gzip()))
 
 // middlewares
-app.use(convert(gzip()))
 app.use(convert(bodyparser));
 app.use(convert(json()));
 app.use(convert(logger()));
