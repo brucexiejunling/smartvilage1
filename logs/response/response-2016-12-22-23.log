@@ -1,0 +1,97 @@
+[2016-12-22 23:03:36.868] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /grzx
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 391
+response status: 302
+response body: 
+"<!DOCTYPE html><html><head><title>智慧乡村</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\" class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-personal_center.js\"></script></body></html>"
+*************** response log end ***************
+
+[2016-12-22 23:03:36.911] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /login?redirectURL=%2Fgrzx
+request client ip:  ::ffff:127.0.0.1
+request query:  {"redirectURL":"/grzx"}
+response time: 32
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>智慧乡村</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\" class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-login.js\"></script></body></html>"
+*************** response log end ***************
+
+[2016-12-22 23:04:37.114] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /grzx
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 294
+response status: 302
+response body: 
+"<!DOCTYPE html><html><head><title>智慧乡村</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\" class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-personal_center.js\"></script></body></html>"
+*************** response log end ***************
+
+[2016-12-22 23:04:37.153] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /login?redirectURL=%2Fgrzx
+request client ip:  ::ffff:127.0.0.1
+request query:  {"redirectURL":"/grzx"}
+response time: 29
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>智慧乡村</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\" class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-login.js\"></script></body></html>"
+*************** response log end ***************
+
+[2016-12-22 23:05:37.123] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /login?redirectURL=%2Fgrzx
+request client ip:  ::ffff:127.0.0.1
+request query:  {"redirectURL":"/grzx"}
+response time: 273
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>智慧乡村</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\" class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-login.js\"></script></body></html>"
+*************** response log end ***************
+
+[2016-12-22 23:05:59.795] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"account":"13580514437","password":"brucexie1993"}
+response time: 18
+response status: 200
+response body: 
+{"code":0,"message":"success","data":{}}
+*************** response log end ***************
+
+[2016-12-22 23:05:59.852] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /grzx
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 38
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>智慧乡村</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\" class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-personal_center.js\"></script></body></html>"
+*************** response log end ***************
+
+[2016-12-22 23:05:59.980] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/get?callback=reqwest_1482419159964
+request client ip:  ::ffff:127.0.0.1
+request query:  {"callback":"reqwest_1482419159964"}
+response time: 7
+response status: 200
+response body: 
+"reqwest_1482419159964({\"code\":0,\"message\":\"success\",\"data\":{\"_id\":\"5854e8d9e813c2389e153eb5\",\"phone\":\"13580514437\",\"account\":\"13580514437\",\"password\":\"fe36993370c34329fd223eb620f56baa\",\"isGovernor\":false,\"__v\":0,\"name\":\"梦希瑞\",\"gender\":\"female\",\"age\":24,\"address\":\"文一西路西溪北苑\",\"idNumber\":\"1549***********7934\",\"realnameStatus\":3,\"realnameResult\":\"名字不真实\"}})"
+*************** response log end ***************
+

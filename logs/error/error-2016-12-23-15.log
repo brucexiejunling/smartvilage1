@@ -1,0 +1,220 @@
+[2016-12-23 15:46:34.589] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/page/get?name=home&callback=reqwest_1482479194506
+request client ip:  ::ffff:127.0.0.1
+request query:  {"name":"home","callback":"reqwest_1482479194506"}
+response time: 20
+err name: pageNotExist
+err message: 页面不存在
+err stack: pageNotExist: 页面不存在
+    at ApiError (/Users/brucetse/work/self/smartvilage1/app/error/api-error.js:9:9)
+    at /Users/brucetse/work/self/smartvilage1/app/controllers/page-controller.js:21:19
+    at next (native)
+    at step (/Users/brucetse/work/self/smartvilage1/app/controllers/page-controller.js:5:191)
+    at /Users/brucetse/work/self/smartvilage1/app/controllers/page-controller.js:5:361
+    at run (/Users/brucetse/work/self/smartvilage1/node_modules/core-js/modules/es6.promise.js:87:22)
+    at /Users/brucetse/work/self/smartvilage1/node_modules/core-js/modules/es6.promise.js:100:28
+    at flush (/Users/brucetse/work/self/smartvilage1/node_modules/core-js/modules/_microtask.js:18:9)
+    at doNTCallback0 (node.js:419:9)
+    at process._tickCallback (node.js:348:13)
+*************** error log end ***************
+
+[2016-12-23 15:46:36.645] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/page/get?name=home&callback=reqwest_1482479196630
+request client ip:  ::ffff:127.0.0.1
+request query:  {"name":"home","callback":"reqwest_1482479196630"}
+response time: 5
+err name: pageNotExist
+err message: 页面不存在
+err stack: pageNotExist: 页面不存在
+    at ApiError (/Users/brucetse/work/self/smartvilage1/app/error/api-error.js:9:9)
+    at /Users/brucetse/work/self/smartvilage1/app/controllers/page-controller.js:21:19
+    at next (native)
+    at step (/Users/brucetse/work/self/smartvilage1/app/controllers/page-controller.js:5:191)
+    at /Users/brucetse/work/self/smartvilage1/app/controllers/page-controller.js:5:361
+    at run (/Users/brucetse/work/self/smartvilage1/node_modules/core-js/modules/es6.promise.js:87:22)
+    at /Users/brucetse/work/self/smartvilage1/node_modules/core-js/modules/es6.promise.js:100:28
+    at flush (/Users/brucetse/work/self/smartvilage1/node_modules/core-js/modules/_microtask.js:18:9)
+    at doNTCallback0 (node.js:419:9)
+    at process._tickCallback (node.js:348:13)
+*************** error log end ***************
+
+[2016-12-23 15:46:45.870] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/page/get?name=home&callback=reqwest_1482479205857
+request client ip:  ::ffff:127.0.0.1
+request query:  {"name":"home","callback":"reqwest_1482479205857"}
+response time: 2
+err name: pageNotExist
+err message: 页面不存在
+err stack: pageNotExist: 页面不存在
+    at ApiError (/Users/brucetse/work/self/smartvilage1/app/error/api-error.js:9:9)
+    at /Users/brucetse/work/self/smartvilage1/app/controllers/page-controller.js:21:19
+    at next (native)
+    at step (/Users/brucetse/work/self/smartvilage1/app/controllers/page-controller.js:5:191)
+    at /Users/brucetse/work/self/smartvilage1/app/controllers/page-controller.js:5:361
+    at run (/Users/brucetse/work/self/smartvilage1/node_modules/core-js/modules/es6.promise.js:87:22)
+    at /Users/brucetse/work/self/smartvilage1/node_modules/core-js/modules/es6.promise.js:100:28
+    at flush (/Users/brucetse/work/self/smartvilage1/node_modules/core-js/modules/_microtask.js:18:9)
+    at doNTCallback0 (node.js:419:9)
+    at process._tickCallback (node.js:348:13)
+*************** error log end ***************
+
+[2016-12-23 15:47:18.729] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/page/get?name=home&callback=reqwest_1482479238714
+request client ip:  ::ffff:127.0.0.1
+request query:  {"name":"home","callback":"reqwest_1482479238714"}
+response time: 2
+err name: pageNotExist
+err message: 页面不存在
+err stack: pageNotExist: 页面不存在
+    at ApiError (/Users/brucetse/work/self/smartvilage1/app/error/api-error.js:9:9)
+    at /Users/brucetse/work/self/smartvilage1/app/controllers/page-controller.js:21:19
+    at next (native)
+    at step (/Users/brucetse/work/self/smartvilage1/app/controllers/page-controller.js:5:191)
+    at /Users/brucetse/work/self/smartvilage1/app/controllers/page-controller.js:5:361
+    at run (/Users/brucetse/work/self/smartvilage1/node_modules/core-js/modules/es6.promise.js:87:22)
+    at /Users/brucetse/work/self/smartvilage1/node_modules/core-js/modules/es6.promise.js:100:28
+    at flush (/Users/brucetse/work/self/smartvilage1/node_modules/core-js/modules/_microtask.js:18:9)
+    at doNTCallback0 (node.js:419:9)
+    at process._tickCallback (node.js:348:13)
+*************** error log end ***************
+
+[2016-12-23 15:47:20.249] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/page/get?name=home&callback=reqwest_1482479240229
+request client ip:  ::ffff:127.0.0.1
+request query:  {"name":"home","callback":"reqwest_1482479240229"}
+response time: 4
+err name: pageNotExist
+err message: 页面不存在
+err stack: pageNotExist: 页面不存在
+    at ApiError (/Users/brucetse/work/self/smartvilage1/app/error/api-error.js:9:9)
+    at /Users/brucetse/work/self/smartvilage1/app/controllers/page-controller.js:21:19
+    at next (native)
+    at step (/Users/brucetse/work/self/smartvilage1/app/controllers/page-controller.js:5:191)
+    at /Users/brucetse/work/self/smartvilage1/app/controllers/page-controller.js:5:361
+    at run (/Users/brucetse/work/self/smartvilage1/node_modules/core-js/modules/es6.promise.js:87:22)
+    at /Users/brucetse/work/self/smartvilage1/node_modules/core-js/modules/es6.promise.js:100:28
+    at flush (/Users/brucetse/work/self/smartvilage1/node_modules/core-js/modules/_microtask.js:18:9)
+    at doNTCallback0 (node.js:419:9)
+    at process._tickCallback (node.js:348:13)
+*************** error log end ***************
+
+[2016-12-23 15:47:30.101] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/page/get?name=home&callback=reqwest_1482479250087
+request client ip:  ::ffff:127.0.0.1
+request query:  {"name":"home","callback":"reqwest_1482479250087"}
+response time: 3
+err name: pageNotExist
+err message: 页面不存在
+err stack: pageNotExist: 页面不存在
+    at ApiError (/Users/brucetse/work/self/smartvilage1/app/error/api-error.js:9:9)
+    at /Users/brucetse/work/self/smartvilage1/app/controllers/page-controller.js:21:19
+    at next (native)
+    at step (/Users/brucetse/work/self/smartvilage1/app/controllers/page-controller.js:5:191)
+    at /Users/brucetse/work/self/smartvilage1/app/controllers/page-controller.js:5:361
+    at run (/Users/brucetse/work/self/smartvilage1/node_modules/core-js/modules/es6.promise.js:87:22)
+    at /Users/brucetse/work/self/smartvilage1/node_modules/core-js/modules/es6.promise.js:100:28
+    at flush (/Users/brucetse/work/self/smartvilage1/node_modules/core-js/modules/_microtask.js:18:9)
+    at doNTCallback0 (node.js:419:9)
+    at process._tickCallback (node.js:348:13)
+*************** error log end ***************
+
+[2016-12-23 15:47:31.085] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/page/get?name=home&callback=reqwest_1482479251072
+request client ip:  ::ffff:127.0.0.1
+request query:  {"name":"home","callback":"reqwest_1482479251072"}
+response time: 2
+err name: pageNotExist
+err message: 页面不存在
+err stack: pageNotExist: 页面不存在
+    at ApiError (/Users/brucetse/work/self/smartvilage1/app/error/api-error.js:9:9)
+    at /Users/brucetse/work/self/smartvilage1/app/controllers/page-controller.js:21:19
+    at next (native)
+    at step (/Users/brucetse/work/self/smartvilage1/app/controllers/page-controller.js:5:191)
+    at /Users/brucetse/work/self/smartvilage1/app/controllers/page-controller.js:5:361
+    at run (/Users/brucetse/work/self/smartvilage1/node_modules/core-js/modules/es6.promise.js:87:22)
+    at /Users/brucetse/work/self/smartvilage1/node_modules/core-js/modules/es6.promise.js:100:28
+    at flush (/Users/brucetse/work/self/smartvilage1/node_modules/core-js/modules/_microtask.js:18:9)
+    at doNTCallback0 (node.js:419:9)
+    at process._tickCallback (node.js:348:13)
+*************** error log end ***************
+
+[2016-12-23 15:47:31.590] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/page/get?name=home&callback=reqwest_1482479251577
+request client ip:  ::ffff:127.0.0.1
+request query:  {"name":"home","callback":"reqwest_1482479251577"}
+response time: 3
+err name: pageNotExist
+err message: 页面不存在
+err stack: pageNotExist: 页面不存在
+    at ApiError (/Users/brucetse/work/self/smartvilage1/app/error/api-error.js:9:9)
+    at /Users/brucetse/work/self/smartvilage1/app/controllers/page-controller.js:21:19
+    at next (native)
+    at step (/Users/brucetse/work/self/smartvilage1/app/controllers/page-controller.js:5:191)
+    at /Users/brucetse/work/self/smartvilage1/app/controllers/page-controller.js:5:361
+    at run (/Users/brucetse/work/self/smartvilage1/node_modules/core-js/modules/es6.promise.js:87:22)
+    at /Users/brucetse/work/self/smartvilage1/node_modules/core-js/modules/es6.promise.js:100:28
+    at flush (/Users/brucetse/work/self/smartvilage1/node_modules/core-js/modules/_microtask.js:18:9)
+    at doNTCallback0 (node.js:419:9)
+    at process._tickCallback (node.js:348:13)
+*************** error log end ***************
+
+[2016-12-23 15:48:05.792] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/page/get?name=home&callback=reqwest_1482479285765
+request client ip:  ::ffff:127.0.0.1
+request query:  {"name":"home","callback":"reqwest_1482479285765"}
+response time: 3
+err name: pageNotExist
+err message: 页面不存在
+err stack: pageNotExist: 页面不存在
+    at ApiError (/Users/brucetse/work/self/smartvilage1/app/error/api-error.js:9:9)
+    at /Users/brucetse/work/self/smartvilage1/app/controllers/page-controller.js:21:19
+    at next (native)
+    at step (/Users/brucetse/work/self/smartvilage1/app/controllers/page-controller.js:5:191)
+    at /Users/brucetse/work/self/smartvilage1/app/controllers/page-controller.js:5:361
+    at run (/Users/brucetse/work/self/smartvilage1/node_modules/core-js/modules/es6.promise.js:87:22)
+    at /Users/brucetse/work/self/smartvilage1/node_modules/core-js/modules/es6.promise.js:100:28
+    at flush (/Users/brucetse/work/self/smartvilage1/node_modules/core-js/modules/_microtask.js:18:9)
+    at doNTCallback0 (node.js:419:9)
+    at process._tickCallback (node.js:348:13)
+*************** error log end ***************
+
+[2016-12-23 15:49:06.875] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/page/get?name=home&callback=reqwest_1482479346800
+request client ip:  ::ffff:127.0.0.1
+request query:  {"name":"home","callback":"reqwest_1482479346800"}
+response time: 25
+err name: pageNotExist
+err message: 页面不存在
+err stack: pageNotExist: 页面不存在
+    at ApiError (/Users/brucetse/work/self/smartvilage1/app/error/api-error.js:9:9)
+    at /Users/brucetse/work/self/smartvilage1/app/controllers/page-controller.js:22:19
+    at next (native)
+    at step (/Users/brucetse/work/self/smartvilage1/app/controllers/page-controller.js:5:191)
+    at /Users/brucetse/work/self/smartvilage1/app/controllers/page-controller.js:5:361
+    at run (/Users/brucetse/work/self/smartvilage1/node_modules/core-js/modules/es6.promise.js:87:22)
+    at /Users/brucetse/work/self/smartvilage1/node_modules/core-js/modules/es6.promise.js:100:28
+    at flush (/Users/brucetse/work/self/smartvilage1/node_modules/core-js/modules/_microtask.js:18:9)
+    at doNTCallback0 (node.js:419:9)
+    at process._tickCallback (node.js:348:13)
+*************** error log end ***************
+
