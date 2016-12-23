@@ -6,7 +6,11 @@ const co = require('co');
 const convert = require('koa-convert');
 const json = require('koa-json');
 const onerror = require('koa-onerror');
-const bodyparser = require('koa-bodyparser')();
+const bodyparser = require('koa-bodyparser')({
+  formLimit: '5mb',
+  jsonLimit: '5mb',
+  textLimit: '5mb'
+});
 const logger = require('koa-logger');
 const logUtil = require('./utils/log-util');
 const users = require('./routes/users');
