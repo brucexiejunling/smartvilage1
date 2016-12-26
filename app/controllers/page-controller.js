@@ -16,10 +16,12 @@ const getPage = async(ctx, next)=> {
             if(!result) {
                 throw new ApiError(ApiErrorNames.PAGE_NOT_EXIST)
             }
+            console.log('result', result)
             if(name === 'kjzf') {
                 let tabs = formatPaperTab(result.tabs)
                 result.tabs = tabs;
             }
+            console.log('name', name, result)
             ctx.body = result
         } catch(e) {
             throw new ApiError(ApiErrorNames.PAGE_NOT_EXIST)
@@ -30,6 +32,7 @@ const getPage = async(ctx, next)=> {
 }
 
 const formatPaperTab(tabs) {
+    console.log('tabs', tabs)
     if(!tabs || tabs.length < 0) {return}
     tabs.forEach((item, idx)=> {
        if(item.name === 'paper') {
@@ -38,6 +41,7 @@ const formatPaperTab(tabs) {
            item.url = paperUrl.replace(/html5\/([^\/]+\/[^\/]+)\//g, (s, s1)=> {
                 return `html5/${dateStr}/`
            })
+           console.log('url', item, item.url)
            tabs[idx] = item
        }
     })
