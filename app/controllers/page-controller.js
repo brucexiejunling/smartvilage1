@@ -16,6 +16,10 @@ const getPage = async(ctx, next)=> {
             if(!result) {
                 throw new ApiError(ApiErrorNames.PAGE_NOT_EXIST)
             }
+            if(name === 'kjzf') {
+                let tabs = formatPaperTab(result.tabs)
+                result.tabs = tabs;
+            }
             ctx.body = result
         } catch(e) {
             throw new ApiError(ApiErrorNames.PAGE_NOT_EXIST)
@@ -23,6 +27,28 @@ const getPage = async(ctx, next)=> {
     } else {
         throw new ApiError(ApiErrorNames.PARAM_ILLEGAL)
     }
+}
+
+const formatPaperTab(tabs) {
+    if(!tabs || tabs.length < 0) {return}
+    tabs.forEach((item, idx)=> {
+       if(item.name === 'paper') {
+           let dateStr = formatDate(new Date())
+           let paperUrl = 'http://www.cnepaper.com/gnrb/h5/html5/2016-11/30/node_1.htm'
+           item.url = paperUrl.replace(/html5\/([^\/]+\/[^\/]+)\//g, (s, s1)=> {
+                return `http://www.cnepaper.com/gnrb/h5/html5/${dateStr}/node_1.htm`
+           })
+           tabs[idx] = item
+       }
+    })
+    return tabs;
+}
+
+const formatDate = (date)=> {
+    let year = date.getFullYear(), month = date.getMonth() + 1, day = date.getDate();
+    month = month < 10 ? `0${month}` : month;
+    day = day < 10 ? `0${day}` : day;
+    return `${year}-${month}/${day}`
 }
 
 const getAllPage = async(ctx, next)=> {
