@@ -1,3 +1,4 @@
+@fz: 375/10rem;
 .css-loading {
   position: fixed;
   top: 50%;
@@ -32,6 +33,27 @@
 
 #loading {
   display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  .css-loading {
+	width: 50/@fz;
+	position: absolute;
+	top: 50%;
+	left: 187.5/@fz;
+	margin-left: 10%;
+	.css-dot {
+	  width: 10/@fz;
+	  height: 10/@fz;
+	  margin: 6/@fz;
+	}
+  }
+  .text {
+	float: 14px;
+	color: #50b8f5;
+  }
 }
 
 @keyframes slide {
