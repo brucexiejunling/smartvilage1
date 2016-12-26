@@ -36,7 +36,7 @@ const formatPaperTab(tabs) {
            let dateStr = formatDate(new Date())
            let paperUrl = 'http://www.cnepaper.com/gnrb/h5/html5/2016-11/30/node_1.htm'
            item.url = paperUrl.replace(/html5\/([^\/]+\/[^\/]+)\//g, (s, s1)=> {
-                return `http://www.cnepaper.com/gnrb/h5/html5/${dateStr}/node_1.htm`
+                return `html5/${dateStr}/`
            })
            tabs[idx] = item
        }
