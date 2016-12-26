@@ -6,7 +6,7 @@ const getPage = async(ctx, next)=> {
     const name = ctx.query.name, _id = ctx.query.id;
     let query;
     if(_id) {
-       query = {_id}
+        query = {_id}
     } else if(name) {
         query = {name}
     }
@@ -32,14 +32,11 @@ const getPage = async(ctx, next)=> {
 const formatPaperTab = (tabs)=> {
     if(!tabs || tabs.length < 0) {return}
     tabs.forEach((item, idx)=> {
-       if(item.name === 'paper') {
-           let dateStr = formatDate(new Date())
-           let paperUrl = 'http://www.cnepaper.com/gnrb/h5/html5/2016-11/30/node_1.htm'
-           item.url = paperUrl.replace(/html5\/([^\/]+\/[^\/]+)\//g, (s, s1)=> {
-                return `html5/${dateStr}/`
-           })
-           tabs[idx] = item
-       }
+        if(item.name === 'paper') {
+            item.url = `http://www.cnepaper.com/gnrb/h5/html5/${formatDate(new Date())}/node_1.htm`
+            tabs[idx] = item
+            return false;
+        }
     })
     return tabs;
 }
