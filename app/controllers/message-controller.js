@@ -4,7 +4,7 @@ const ApiError = require('../error/api-error');
 const ApiErrorNames = require('../error/api-error-names');
 const client = new TopClient({
     'appkey': '23587473',
-    'appsecret': '9e947e1304c1ef7244656461a29180b0',
+    'appsecret': 'a40191db216f9c795448ea3d5cc4c4b4',
     'REST_URL': 'http://gw.api.taobao.com/router/rest'
 });
 
