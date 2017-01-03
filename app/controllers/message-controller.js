@@ -3,8 +3,8 @@ const TopClient = require('../sdk/alidayu/topClient').TopClient;
 const ApiError = require('../error/api-error');
 const ApiErrorNames = require('../error/api-error-names');
 const client = new TopClient({
-    'appkey': '23566124',
-    'appsecret': '3dd65021501e12a2f3138618bffdd995',
+    'appkey': '23587473',
+    'appsecret': '9e947e1304c1ef7244656461a29180b0',
     'REST_URL': 'http://gw.api.taobao.com/router/rest'
 });
 
@@ -23,10 +23,10 @@ const sendCaptchaAsync = (phone, code)=> {
         client.execute('alibaba.aliqin.fc.sms.num.send', {
             'extend': '123456',
             'sms_type': 'normal',
-            'sms_free_sign_name': '智慧乡村',
+            'sms_free_sign_name': '子墨文化智慧',
             'sms_param': JSON.stringify({code}),
             'rec_num': phone,
-            'sms_template_code': 'SMS_34405038'
+            'sms_template_code': 'SMS_37535192'
         }, (error, response)=> {
             if (!error) {
                 resolve(response)
