@@ -69,7 +69,8 @@ const uploadFile = async(ctx, next)=> {
     const originName = Object.keys(file)[0], url = file[originName];
     let resp = {
         name: originName,
-        url: `${config.hostname}${url}`,
+        url: decodeURIComponent(`${config.hostname}${url}`),
+        originalUrl: `${config.hostname}${url}`
     }
     ctx.body = resp
     return;
@@ -99,7 +100,7 @@ const listFiles = async(ctx, next)=> {
         try {
             files = fs.readdirSync(filepath)
             files.forEach((file)=> {
-                list.push({url: `${config.hostname}/${subPath}/${dir}/${file}`})
+                list.push({url: decodeURIComponent(`${config.hostname}/${subPath}/${dir}/${file}`), originUrl: `${config.hostname}/${subPath}/${dir}/${file}`})
             })
         } catch (e) {
             ctx.body = {
