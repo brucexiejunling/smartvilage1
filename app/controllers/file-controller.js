@@ -45,7 +45,9 @@ const uploadFile = async(ctx, next)=> {
     let result = {};
     const storeDir = opts.storeDir ? `${ opts.storeDir }/` : '';
     files.forEach(function (file) {
-        result[file.filename] = `${ storeDir }${ dateformat(new Date(), "yyyy-mm-dd") }/${file.filename}`;
+        let ext = file.filename.substr(file.filename.lastIndexOf('.')),
+            newFilename = `${+new Date()}${ext}`;
+        result[file.filename] = `${ storeDir }${ dateformat(new Date(), "yyyy-mm-dd") }/${newFilename}`;
     });
 
     // Upload to OSS or folders
