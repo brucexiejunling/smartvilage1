@@ -110,9 +110,12 @@ const listFiles = async(ctx, next)=> {
             }
         }
     })
+    console.log('xxxxlist', list)
     //分页
     const offset = ctx.query.offset ? parseInt(ctx.query.offset) : 0, pageSize = ctx.query.pageSize ? parseInt(ctx.query.pageSize) : list.length;
     const newList = list.slice(offset, offset + pageSize)
+
+    console.log('new list', newList)
     ctx.body = {
         data: newList,
         total: list.length
