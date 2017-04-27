@@ -31,3 +31,7 @@ OK
 ============
 本地启动redis server
 /usr/local/bin/redis-server
+
+========
+查看端口号进程命令
+netstat -nlutp
