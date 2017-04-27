@@ -6,6 +6,8 @@ const co = require('co');
 const convert = require('koa-convert');
 const json = require('koa-json');
 const onerror = require('koa-onerror');
+// const md5 = require('md5')
+// console.log(md5('brucexie1993'))
 const bodyparser = require('koa-bodyparser')({
   formLimit: '5mb',
   jsonLimit: '5mb',
@@ -22,6 +24,8 @@ const responseFormatter = require('./middlewares/response-formatter');
 const auth = require('./middlewares/basic-auth');
 const unauthorizeHandler = require('./middlewares/unauthorize-handler')
 const loginChecker = require('./middlewares/login-checker')
+const governorChecker = require('./middlewares/governor-checker')
+const townsmenChecker = require('./middlewares/townsmen-checker')
 
 const session = require("./app/sdk/session/session");
 const RedisStore = require("./app/sdk/session/redisStore");
@@ -69,11 +73,19 @@ app.use(responseFormatter('^/api'));
 
 app.use(unauthorizeHandler());
 
-//管理员权限验证
-app.use(auth('^/(admin)|(api/[^/]+/(save|remove|add|update))'))
 
 //强登逻辑验证
-app.use(loginChecker('^/(grzx|fbxf|msdy|smrz|xgzl|bchsb)'))
+app.use(loginChecker('^/(grzx|fbxf|msdy|smrz|xgzl|bchsb|wddy|wdxf|wdbch|ydbg|xxzx|gzjh|fbjh|gzrz|xrz|tzgg|fbtz|txl)'))
+
+//管理员权限验证
+app.use(auth('^/(admin)|(api/[^/]+/(save|remove|add|update|modify))'))
+
+//政府职员身份认证
+app.use(governorChecker('^/(ydbg|gzjh|fbjh|gzrz|xrz|tzgg|fbtz)'));
+
+//乡贤身份认证
+app.use(townsmenChecker('^/(xxzx|xwz)'));
+
 
 router.use('/ueditor/ue', ueditor.routes(), ueditor.allowedMethods())
 router.use('/users', users.routes(), users.allowedMethods());

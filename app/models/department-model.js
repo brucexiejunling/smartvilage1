@@ -10,6 +10,10 @@ let DepartmentSchema = new mongoose.Schema({
 
 const DepartmentModel = db.model('Department', DepartmentSchema);
 
+export function findByName(name) {
+   return DepartmentModel.find({name});
+}
+
 export function findAll() {
    return DepartmentModel.find()
 }

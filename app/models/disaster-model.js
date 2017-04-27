@@ -3,12 +3,17 @@ const db = mongoose.connection;
 
 // 此类问题指定农技部门处理
 let DisasterSchema = new mongoose.Schema({
-    user: {type: mongoose.Schema.Types.ObjectId, ref: 'User'},
+    publisher: {type: mongoose.Schema.Types.ObjectId, ref: 'User'},
+    department: {type: mongoose.Schema.Types.ObjectId, ref: 'Department'},
     area: {type: String},
+    title: {type: String},
     content: {type: String},
     imgs: [{type: String}],
-    status: {type: Number},
+    status: {type: Number}, //0新提交，1. 处理中，2. 已处理
     result: {type: String},
+    resultImgs: [{type: String}],
+    modifier: {type: mongoose.Schema.Types.ObjectId, ref: 'User'},
+    modifyTime: {type: Number},
     date: {type: String},
     timestamp: {type: Number}
 })
@@ -27,11 +32,14 @@ export function find(query) {
     return DisasterModel.find(query)
 }
 
+export function findById(id) {
+    return DisasterModel.findById(id)
+}
+
 export function update(id, data) {
     const date = new Date()
     data.timestamp = date.getTime()
     data.date = formatDate(date)
-    data.user = data.userId
     return DisasterModel.update({_id: id}, {$set: data})
 }
 
@@ -39,7 +47,6 @@ export function create(data) {
     const date = new Date()
     data.timestamp = date.getTime()
     data.date = formatDate(date)
-    data.user = data.userId
     const Disaster = new DisasterModel(data);
     return Disaster.save()
 }

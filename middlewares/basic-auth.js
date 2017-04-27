@@ -28,7 +28,7 @@ export default function(pattern){
         const reg = new RegExp(pattern);
         let originalUrl = ctx.originalUrl
         //除了用户可以自主更新资料之外，其他的都是admin操作，需要验证
-        const userAction = /(user|question|disaster|consult)\/(save|add)/.test(originalUrl)
+        const userAction = /(user|question|disaster|consult|plan|diary|notice|article)\/(save|add|top)/.test(originalUrl)
         if(reg.test(originalUrl) && !userAction && !ctx.session.isAdmin) {
 
             const user = auth(ctx);

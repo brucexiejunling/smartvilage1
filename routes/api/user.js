@@ -9,6 +9,9 @@ router.get('/list', userController.getUsers)
 router.post('/register', userController.registerUser)
 router.get('/register', userController.registerUser)
 
+router.post('/add', userController.addUser)
+router.get('/add', userController.addUser)
+
 router.post('/identify', userController.identifyUser)
 router.get('/identify', userController.identifyUser)
 
@@ -23,6 +26,12 @@ router.get('/login', userController.userLogin)
 //
 router.post('/save', userController.updateUser)
 router.get('/save', userController.updateUser)
+
+router.post('/modify', userController.modifyUser)
+router.get('/modify', userController.modifyUser)
+
+router.post('/remove', userController.removeUser)
+router.get('/remove', userController.removeUser)
 //
 //router.post('/remove', userController.removeUser)
 //router.get('/remove', userController.removeUser)

@@ -6,6 +6,8 @@ let UserSchema = new mongoose.Schema({
     name: {type: String},
     spell: {type: String},
     gender: {type: String},
+    birthplace: {type: String},
+    company: {type: String},
     age: {type: Number},
     birthday: {type: String},
     avatar: {type: String},
@@ -17,7 +19,7 @@ let UserSchema = new mongoose.Schema({
     idNumber: {type: String},
     realnameStatus: {type: Number},
     realnameResult: {type: String},
-    isGovernor: {type: Boolean},
+    level: {type: Number}, //1普通用户，2. 乡贤， 3.政府职工，4.部门负责人，5.镇长，书记 
     position: {type: String},
     department: {type: mongoose.Schema.Types.ObjectId, ref: 'Department'}
 })

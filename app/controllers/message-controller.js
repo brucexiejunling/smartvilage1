@@ -47,8 +47,11 @@ export async function sendCaptchaMsg(ctx, next) {
         action = ctx.request.body.action
     }
 
-    if(!phone || captchaMap[phone]) {
+    if(!phone) {
         throw new ApiError(ApiErrorNames.PARAM_ILLEGAL)
+    }
+    if(captchaMap[phone]) {
+      ctx.body = {};
     }
     if(action === 'register') {
         let isExist = await isUserExist(phone)

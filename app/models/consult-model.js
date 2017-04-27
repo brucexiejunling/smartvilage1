@@ -2,25 +2,32 @@ const mongoose = require('../database/mongoose')
 const db = mongoose.connection;
 
 let ConsultSchema = new mongoose.Schema({
-    user: {type: mongoose.Schema.Types.ObjectId, ref: 'User'},
+    publisher: {type: mongoose.Schema.Types.ObjectId, ref: 'User'},
     department: {type: mongoose.Schema.Types.ObjectId, ref: 'Department'},
-    area: {type: String},
+    title: {type: String},
     content: {type: String},
+    area: {type: String},
     imgs: [{type: String}],
-    status: {type: Number},
+    status: {type: Number}, //0新提交，1. 处理中，2. 已处理
     result: {type: String},
+    resultImgs: [{type: String}],
+    modifier: {type: mongoose.Schema.Types.ObjectId, ref: 'User'},
+    modifyTime: {type: Number},
     date: {type: String},
     timestamp: {type: Number}
 })
 
 const ConsultModel = db.model('Consult', ConsultSchema);
 
-
 function formatDate(date) {
     let year = date.getFullYear(), month = date.getMonth() + 1, day = date.getDate();
     month = month < 10 ? `0${month}` : month;
     day = day < 10 ? `0${day}` : day;
     return `${year}-${month}-${day}`
+}
+
+export function findById(id) {
+    return ConsultModel.findById(id)
 }
 
 export function find(query) {
@@ -31,8 +38,6 @@ export function update(id, data) {
     const date = new Date()
     data.timestamp = date.getTime()
     data.date = formatDate(date)
-    data.user = data.userId
-    data.department = data.department
     return ConsultModel.update({_id: id}, {$set: data})
 }
 
@@ -40,10 +45,7 @@ export function create(data) {
     const date = new Date()
     data.timestamp = date.getTime()
     data.date = formatDate(date)
-    data.user = data.userId
-    data.department = data.department
     const consult = new ConsultModel(data);
-    console.log('xxxx', consult)
     return consult.save()
 }
 

@@ -160,4 +160,14 @@ router.get('/wdgl', async function (ctx, next) {
 
     await ctx.render('admin/wdgl', {});
 })
+
+router.get('/xxzx', async function (ctx, next) {
+    ctx.state = {
+        title: '乡贤在线',
+        pageName: 'xxzx'
+    };
+
+    await ctx.render('admin/xxzx', {});
+})
+
 module.exports = router;

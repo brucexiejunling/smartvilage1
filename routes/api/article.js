@@ -4,6 +4,9 @@ const articleController = require('../../app/controllers/article-controller');
 router.get('/get', articleController.getArticle);
 router.get('/feeds', articleController.getArticleFeeds);
 
+router.post('/top', articleController.toTopArticle);
+router.get('/top', articleController.toTopArticle);
+
 router.post('/save', articleController.updateArticle);
 router.get('/save', articleController.updateArticle);
 

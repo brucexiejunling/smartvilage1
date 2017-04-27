@@ -2,13 +2,16 @@ const mongoose = require('../database/mongoose')
 const db = mongoose.connection;
 
 let QuestionSchema = new mongoose.Schema({
-    user: {type: mongoose.Schema.Types.ObjectId, ref: 'User'},
+    publisher: {type: mongoose.Schema.Types.ObjectId, ref: 'User'},
     department: {type: mongoose.Schema.Types.ObjectId, ref: 'Department'},
-    area: {type: String},
+    title: {type: String},
     content: {type: String},
     imgs: [{type: String}],
-    status: {type: Number},
+    status: {type: Number}, //0新提交，1. 处理中，2. 已处理
     result: {type: String},
+    resultImgs: [{type: String}],
+    modifier: {type: mongoose.Schema.Types.ObjectId, ref: 'User'},
+    modifyTime: {type: Number},
     date: {type: String},
     timestamp: {type: Number}
 })
@@ -23,6 +26,11 @@ function formatDate(date) {
     return `${year}-${month}-${day}`
 }
 
+
+export function findById(id) {
+    return QuestionModel.findById(id);
+}
+
 export function find(query) {
     return QuestionModel.find(query)
 }
@@ -31,8 +39,6 @@ export function update(id, data) {
     const date = new Date()
     data.timestamp = date.getTime()
     data.date = formatDate(date)
-    data.user = data.userId
-    data.department = data.department
     return QuestionModel.update({_id: id}, {$set: data})
 }
 
@@ -40,8 +46,6 @@ export function create(data) {
     const date = new Date()
     data.timestamp = date.getTime()
     data.date = formatDate(date)
-    data.user = data.userId
-    data.department = data.department
     const Question = new QuestionModel(data);
     return Question.save()
 }
