@@ -4,7 +4,7 @@ module.exports = function(pattern) {
     return async(ctx, next) => {
         if(reg.test(ctx.originalUrl)) {
             let currentUser = await UserModel.findById(ctx.session.userId);
-            if(currentUser.level >= 3) {
+            if(currentUser && currentUser.level >= 3) {
               await next();
             } else {
               ctx.throw(402);

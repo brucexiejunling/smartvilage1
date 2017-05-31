@@ -12,12 +12,14 @@ const questionRouter = require('./question');
 const disasterRouter = require('./disaster');
 const newsRouter = require('./news');
 const fileRouter = require('./file');
+const recordRouter = require('./record');
 
 router.use('/page', pageRouter.routes(), pageRouter.allowedMethods());
 router.use('/article', articleRouter.routes(), articleRouter.allowedMethods());
 router.use('/department', departmentRouter.routes(), departmentRouter.allowedMethods());
 router.use('/message', messageRouter.routes(), messageRouter.allowedMethods());
 router.use('/user',userRouter.routes(), userRouter.allowedMethods());
+router.use('/record', recordRouter.routes(), recordRouter.allowedMethods());
 router.use('/plan', planRouter.routes(), planRouter.allowedMethods());
 router.use('/notice', noticeRouter.routes(), noticeRouter.allowedMethods());
 router.use('/diary', diaryRouter.routes(), diaryRouter.allowedMethods());

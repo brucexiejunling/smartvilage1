@@ -49,13 +49,18 @@ const getCommonQueries = q => {
   return query;
 };
 
-const selects = '_id title desc date timestamp keywords page tab type cover content toTop showAuthorInfo author';
+const selects = '_id title desc date timestamp keywords page tab type cover content toTop showAuthorInfo author comments';
 
 const getArticle = async (ctx, next) => {
   const id = ctx.query.id;
   if (id) {
     try {
-      const result = await findById(id).populate('author', 'name company position').select(selects).lean().exec();
+      const result = await findById(id)
+        .populate('author', 'name company position')
+        .populate('comments.user', 'name')
+        .select(selects)
+        .lean()
+        .exec();
       const url = `${config.hostname}/wzxq?id=${result._id}`;
       result.url = url;
       ctx.body = result;
@@ -164,8 +169,8 @@ const getArticleFeeds = async (ctx, next) => {
     }
     try {
       count = await find(Object.assign({}, query)).count();
-      let topArticle = await find(Object.assign({}, query, {toTop: true}));
-      if(offset === 0 && topArticle.length > 0) {
+      let topArticle = await find(Object.assign({}, query, { toTop: true }));
+      if (offset === 0 && topArticle.length > 0) {
         pageSize -= 1;
       }
       result = await find(Object.assign({}, query))
@@ -177,14 +182,14 @@ const getArticleFeeds = async (ctx, next) => {
         .exec();
       result.forEach((item, idx) => {
         const url = `${config.hostname}/wzxq?id=${item._id}`;
-        if(topArticle[0] && item._id + '' === topArticle[0]._id + '') {
+        if (topArticle[0] && item._id + '' === topArticle[0]._id + '') {
           result.splice(idx, 1);
         } else {
           item.url = url;
         }
       });
 
-      if(topArticle[0]) {
+      if (topArticle[0]) {
         topArticle[0].url = `${config.hostname}/wzxq?id=${topArticle[0]._id}`;
         result.unshift(topArticle[0]);
       }
@@ -231,6 +236,57 @@ const updateArticle = async (ctx, next) => {
   }
 };
 
+const getTimeStr = () => {
+  let date = new Date();
+  let year = date.getFullYear(),
+    month = date.getMonth() + 1,
+    day = date.getDate(),
+    hour = date.getHours(),
+    min = date.getMinutes();
+  month = month < 10 ? `0${month}` : month;
+  day = day < 10 ? `0${day}` : day;
+  hour = hour < 10 ? `0${hour}` : hour;
+  min = min < 10 ? `0${min}` : min;
+  return `${year}-${month}-${day} ${hour}:${min}`;
+};
+
+const commentArticle = async (ctx, next) => {
+  if (!ctx.session.userId) {
+    throw new ApiError(ApiErrorNames.USER_NOT_LOGIN);
+  } else {
+    let param;
+    if (ctx.method === 'GET') {
+      param = ctx.request.query;
+    } else {
+      param = ctx.request.body;
+    }
+    const id = param.id;
+    if (id) {
+      let content = param.content;
+      if (content) {
+        try {
+          let comment = {
+            user: ctx.session.userId,
+            content: content,
+            time: getTimeStr()
+          };
+          const article = await findById(id).select('comments').lean().exec();
+          let comments = article.comments || [];
+          comments.unshift(comment);
+          const result = await update(id, { comments });
+          ctx.body = result;
+        } catch (e) {
+          throw new ApiError(ApiErrorNames.UNKNOW_ERROR);
+        }
+      } else {
+        throw new ApiError(ApiErrorNames.PARAM_ILLEGAL);
+      }
+    } else {
+      throw new ApiError(ApiErrorNames.PARAM_ILLEGAL);
+    }
+  }
+};
+
 const toTopArticle = async (ctx, next) => {
   let param;
   if (ctx.method === 'GET') {
@@ -258,11 +314,15 @@ const toTopArticle = async (ctx, next) => {
     }
     if (page) {
       try {
-        let currentTopArticle =  await find({page: page, tab: tab, toTop: true});
-        if(currentTopArticle[0]) {
-          await update(currentTopArticle[0]._id, {toTop: false});
+        let currentTopArticle = await find({
+          page: page,
+          tab: tab,
+          toTop: true
+        });
+        if (currentTopArticle[0]) {
+          await update(currentTopArticle[0]._id, { toTop: false });
         }
-        const result = await update(id, {toTop: true});
+        const result = await update(id, { toTop: true });
         ctx.body = result;
       } catch (e) {
         throw new ApiError(ApiErrorNames.UNKNOW_ERROR);
@@ -328,5 +388,6 @@ module.exports = {
   getArticleFeeds,
   updateArticle,
   createArticle,
-  removeArticle
+  removeArticle,
+  commentArticle
 };

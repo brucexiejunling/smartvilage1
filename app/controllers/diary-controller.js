@@ -26,8 +26,8 @@ const getDiaryById = async (ctx, next) => {
 };
 
 const getDiarys = async (ctx, next) => {
-  //测试～～～～～～
-  // ctx.session.userId = '58529ae8ae6fd22d9d9cd824';
+  // 测试～～～～～～
+  // ctx.session.userId = '5900b2cbdc3bfb20933191c7';
 
   let query = Object.assign({}, ctx.query);
   let type = query.type || 'all';

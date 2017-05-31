@@ -258,6 +258,22 @@ const registerUser = async (ctx, next) => {
   }
 };
 
+// const getDepartmentMembersCount = department => {
+//   return new Promise((resolve, reject) => {
+//     find({department}).count()(err, user) => {
+//       if (err) {
+//         reject(false);
+//       } else {
+//         if (user) {
+//           resolve(true);
+//         } else {
+//           resolve(false);
+//         }
+//       }
+//     });
+//   });
+// }
+
 const isUserExist = account => {
   return new Promise((resolve, reject) => {
     findByAccount(account).exec((err, user) => {

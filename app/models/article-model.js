@@ -1,6 +1,12 @@
 const mongoose = require('../database/mongoose');
 const db = mongoose.connection;
 
+let CommentSchema = new mongoose.Schema({
+  user: {type: mongoose.Schema.Types.ObjectId, ref: 'User'},
+  time: {type: String},
+  content: {type: String}
+});
+
 let ArticleSchema = new mongoose.Schema({
   author: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },
   title: { type: String },
@@ -14,7 +20,8 @@ let ArticleSchema = new mongoose.Schema({
   content: { type: String },
   desc: { type: String },
   showAuthorInfo: { type: Boolean },
-  toTop: { type: Boolean } //置顶
+  toTop: { type: Boolean }, //置顶
+  comments: [CommentSchema]
 });
 
 const ArticleModel = db.model('Article', ArticleSchema);

@@ -242,6 +242,22 @@ router.get('swxq', async function (ctx, next) {
     await ctx.render('front/swxq', {});
 })
 
+router.get('kqqd', async function (ctx, next) {
+    ctx.state = {
+        title: '考勤签到'
+    };
+
+    await ctx.render('front/kqqd', {});
+})
+
+router.get('qdxq', async function (ctx, next) {
+    ctx.state = {
+        title: '签到详情'
+    };
+
+    await ctx.render('front/qdxq', {});
+})
+
 
 
 module.exports = router;

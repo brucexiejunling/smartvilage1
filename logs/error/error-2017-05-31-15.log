@@ -1,0 +1,18 @@
+[2017-05-31 15:51:27.500] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/record/list?type=all&offset=0&pageSize=10&callback=reqwest_1496217087461
+request client ip:  ::1
+request query:  {"type":"all","offset":"0","pageSize":"10","callback":"reqwest_1496217087461"}
+response time: 3
+err name: accessDenied
+err message: 无权限访问
+err stack: accessDenied: 无权限访问
+    at ApiError (/Users/brucetse/work/self/smartvilage1/app/error/api-error.js:9:9)
+    at /Users/brucetse/work/self/smartvilage1/app/controllers/record-controller.js:250:13
+    at next (native)
+    at step (/Users/brucetse/work/self/smartvilage1/app/controllers/record-controller.js:5:191)
+    at /Users/brucetse/work/self/smartvilage1/app/controllers/record-controller.js:5:361
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+*************** error log end ***************
+

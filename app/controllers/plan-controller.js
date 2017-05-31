@@ -8,6 +8,9 @@ const selects = '';
 
 let currentUser;
 const getPlanById = async (ctx, next) => {
+  //测试～～～～～～
+  // ctx.session.userId = '5900b2cbdc3bfb20933191c7';
+
   const id = ctx.query.id;
   if (id) {
     try {
@@ -21,6 +24,10 @@ const getPlanById = async (ctx, next) => {
       result.title = result.title || result.content.substr(0, 10);
 
       currentUser = await userModel.findById(ctx.session.userId);
+
+      if(!currentUser) {
+        throw new ApiError(ApiErrorNames.USER_NOT_LOGIN);
+      }
 
       result.isMy = false;
       if (
@@ -226,7 +233,7 @@ const updatePlan = async (ctx, next) => {
 
 const replyPlan = async (ctx, next) => {
   //测试～～～～～～
-  // ctx.session.userId = '58529ae8ae6fd22d9d9cd824';
+  // ctx.session.userId = '592306822ec3727cb2607352';
   if (!ctx.session.userId) {
     throw new ApiError(ApiErrorNames.USER_NOT_LOGIN);
   } else {
@@ -247,17 +254,14 @@ const replyPlan = async (ctx, next) => {
         }
       }
       if (data) {
-        let handlers = data.handlers;
-        delete data.handlers;
+        let plan = await findById(id).lean().exec();
+        let handlers = plan.handlers || [];
         let handler = {
           user: ctx.session.userId
         };
         //移除掉之前的
-        handlers.forEach((h, idx) => {
-          if (h.user + '' === ctx.session.userId + '') {
-            handler = h;
-            handlers.splice(idx, 1);
-          }
+        handlers = handlers.filter((h, idx) => {
+          return h.user + '' !== ctx.session.userId + '';
         });
         Object.assign(handler, data);
         currentUser = await userModel.findById(ctx.session.userId);

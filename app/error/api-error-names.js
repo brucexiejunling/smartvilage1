@@ -15,6 +15,9 @@ ApiErrorNames.PAGE_NOT_EXIST = "pageNotExist";
 ApiErrorNames.CONSULT_NOT_EXIST = "consultNotExist";
 ApiErrorNames.PARAM_ILLEGAL = "paramIllegal";
 ApiErrorNames.ACCESS_DENIED = "accessDenied";
+ApiErrorNames.RECORD_UNSET = "recordUnset";
+ApiErrorNames.SIGNIN_ALREADY = "signinAlready";
+ApiErrorNames.SIGNOUT_ALREADY = "signoutAlready";
 
 /**
  * API错误名称对应的错误信息
@@ -33,6 +36,9 @@ error_map.set(ApiErrorNames.PAGE_NOT_EXIST, { code: 101, message: '页面不存�
 error_map.set(ApiErrorNames.CONSULT_NOT_EXIST, { code: 101, message: '信访不存在' });
 error_map.set(ApiErrorNames.PARAM_ILLEGAL, { code: 109, message: '参数不正确' });
 error_map.set(ApiErrorNames.ACCESS_DENIED, { code: 401, message: '无权限访问' });
+error_map.set(ApiErrorNames.RECORD_UNSET, { code: 101, message: '未设置考勤' });
+error_map.set(ApiErrorNames.SIGNIN_ALREADY, { code: 102, message: '今日已签到' });
+error_map.set(ApiErrorNames.SIGNOUT_ALREADY, { code: 102, message: '今日已签退' });
 
 //根据错误名称获取错误信息
 ApiErrorNames.getErrorInfo = (error_name) => {

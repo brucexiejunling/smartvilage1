@@ -170,4 +170,13 @@ router.get('/xxzx', async function (ctx, next) {
     await ctx.render('admin/xxzx', {});
 })
 
+router.get('/kqgl', async function (ctx, next) {
+    ctx.state = {
+        title: '考勤管理',
+        pageName: 'kqgl'
+    };
+
+    await ctx.render('admin/kqgl', {});
+})
+
 module.exports = router;

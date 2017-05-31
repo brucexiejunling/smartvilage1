@@ -1,0 +1,1573 @@
+[2017-05-31 15:43:58.313] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /swxq?id=5925a7ff938102d6e971c1da&type=plan&mode=write
+request client ip:  ::1
+request query:  {"id":"5925a7ff938102d6e971c1da","type":"plan","mode":"write"}
+response time: 301
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-issue_detail.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:43:58.487] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/plan/get?id=5925a7ff938102d6e971c1da&callback=reqwest_1496216638417
+request client ip:  ::1
+request query:  {"id":"5925a7ff938102d6e971c1da","callback":"reqwest_1496216638417"}
+response time: 46
+response status: 200
+response body: 
+"reqwest_1496216638417({\"code\":0,\"message\":\"success\",\"data\":{\"_id\":\"5925a7ff938102d6e971c1da\",\"title\":\"第一个计划\",\"content\":\"积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服\",\"startDate\":\"2017-06-01\",\"endDate\":\"2017-07-01\",\"receiverType\":3,\"receiver\":null,\"publisher\":{\"_id\":\"5900b2cbdc3bfb20933191c7\",\"name\":\"谢生\",\"phone\":\"12345678910\",\"address\":\"河源是和平县\"},\"timestamp\":1496216325233,\"date\":\"2017-05-31\",\"handlers\":[{\"imgs\":[],\"_id\":\"592e727a0ef739f8e19d181d\",\"username\":\"谢生\",\"result\":\"11111\",\"status\":1,\"user\":{\"_id\":\"5900b2cbdc3bfb20933191c7\",\"name\":\"谢生\"}},{\"imgs\":[],\"_id\":\"592e73058e0fb8f9a53c2c48\",\"username\":\"孟小姐\",\"result\":\"你妹\",\"status\":2,\"user\":{\"_id\":\"592306822ec3727cb2607352\",\"name\":\"孟小姐\"}}],\"imgs\":[],\"__v\":0,\"isMy\":true,\"unhandlers\":[{\"_id\":\"592306222ec3727cb2607351\",\"name\":\"谢小龙\"}],\"status\":0}})"
+*************** response log end ***************
+
+[2017-05-31 15:44:00.944] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 38
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-home_page.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:44:01.065] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/page/get?name=home&callback=reqwest_1496216641050
+request client ip:  ::1
+request query:  {"name":"home","callback":"reqwest_1496216641050"}
+response time: 3
+response status: 200
+response body: 
+"reqwest_1496216641050({\"code\":0,\"message\":\"success\",\"data\":{\"_id\":\"5857fdfe1247be4c153dc39e\",\"name\":\"home\",\"text\":\"网站首页\",\"url\":\"/\",\"desc\":\"江西赣州人民政府，是全心全意为人民服务的政府,\",\"tabs\":[],\"banners\":[{\"_id\":\"5857feaf3c5a3a4c1de60ba5\",\"url\":\"www.baidu.com\",\"img\":\"https://img.alicdn.com/tfscom/TB1VkY0OFXXXXXJaFXXSutbFXXX.jpg\"},{\"_id\":\"5857feaf3c5a3a4c1de60ba4\",\"url\":\"www.tm.com\",\"img\":\"http://img.alicdn.com/tfscom/TB1C8EGOpXXXXX0XVXXSutbFXXX.jpg\"}],\"__v\":0}})"
+*************** response log end ***************
+
+[2017-05-31 15:44:01.195] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/article/feeds?tab=%7B%7D&page=%7B%22name%22%3A%22home%22%2C%22text%22%3A%22%E7%BD%91%E7%AB%99%E9%A6%96%E9%A1%B5%22%7D&offset=0&pageSize=10&callback=reqwest_1496216641050
+request client ip:  ::1
+request query:  {"tab":"{}","page":"{\"name\":\"home\",\"text\":\"网站首页\"}","offset":"0","pageSize":"10","callback":"reqwest_1496216641050"}
+response time: 12
+response status: 200
+response body: 
+"reqwest_1496216641050({\"code\":0,\"message\":\"success\",\"data\":{\"total\":3,\"data\":[{\"_id\":\"590157f14e32710c4ff35807\",\"title\":\"大大\",\"cover\":\"\",\"desc\":\"发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布\",\"date\":\"2017-04-27\",\"url\":\"http://localhost/wzxq?id=590157f14e32710c4ff35807\"},{\"_id\":\"5901565e4e32710c4ff35806\",\"title\":\"首页测试文章1\",\"cover\":\"\",\"desc\":\"发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布\",\"date\":\"2017-04-27\",\"url\":\"http://localhost/wzxq?id=5901565e4e32710c4ff35806\"},{\"_id\":\"5901561b4e32710c4ff35805\",\"title\":\"首页测试文章2\",\"cover\":\"\",\"desc\":\"发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布\",\"date\":\"2017-04-27\",\"url\":\"http://localhost/wzxq?id=5901561b4e32710c4ff35805\"}]}})"
+*************** response log end ***************
+
+[2017-05-31 15:44:03.587] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /ydbg
+request client ip:  ::1
+request query:  {}
+response time: 25
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-mobile_office.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:44:03.706] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/news/get?callback=reqwest_1496216643671
+request client ip:  ::1
+request query:  {"callback":"reqwest_1496216643671"}
+response time: 25
+response status: 200
+response body: 
+"reqwest_1496216643671({\"code\":0,\"message\":\"success\",\"data\":{\"data\":{\"plans\":[],\"notices\":[],\"questions\":[],\"consults\":[],\"disasters\":[]}}})"
+*************** response log end ***************
+
+[2017-05-31 15:44:05.001] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /tzgg?tab=my
+request client ip:  ::1
+request query:  {"tab":"my"}
+response time: 24
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-notice.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:44:05.126] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/notice/list?type=my&offset=0&pageSize=10&callback=reqwest_1496216645099
+request client ip:  ::1
+request query:  {"type":"my","offset":"0","pageSize":"10","callback":"reqwest_1496216645099"}
+response time: 11
+response status: 200
+response body: 
+"reqwest_1496216645099({\"code\":0,\"message\":\"success\",\"data\":{\"total\":3,\"data\":[{\"_id\":\"5900b5230f3bc52288bf8c2b\",\"title\":\"谢小龙\",\"content\":\"电话卡拉升反馈撒国防科技啊颂古非今撒发个，就\",\"receiverType\":2,\"receiverDepartment\":{\"_id\":\"5857d37ac16412478ee55baf\",\"name\":\"科学部门\"},\"publisher\":{\"_id\":\"5900b2cbdc3bfb20933191c7\",\"name\":\"谢生\",\"gender\":\"male\",\"age\":23,\"phone\":\"12345678910\",\"address\":\"河源是和平县\",\"idNumber\":\"2412525252521\"},\"timestamp\":1496214608417,\"date\":\"2017-05-31\",\"handlers\":[{\"_id\":\"5900b2cbdc3bfb20933191c7\",\"name\":\"谢生\"}],\"imgs\":[],\"__v\":0},{\"_id\":\"5900b4f50f3bc52288bf8c2a\",\"title\":\"大恒科技啊啊可是结果\",\"content\":\"后打开就是个反馈撒几个粉丝卡就国防\",\"receiverType\":1,\"receiver\":null,\"publisher\":{\"_id\":\"5900b2cbdc3bfb20933191c7\",\"name\":\"谢生\",\"gender\":\"male\",\"age\":23,\"phone\":\"12345678910\",\"address\":\"河源是和平县\",\"idNumber\":\"2412525252521\"},\"timestamp\":1493227415455,\"date\":\"2017-04-27\",\"handlers\":[],\"imgs\":[],\"__v\":0},{\"_id\":\"5900b371dc3bfb20933191c8\",\"title\":\"谢大恒科技的感觉是\",\"content\":\"很快就发噶上课就发噶跨世纪法国萨景福宫\",\"receiverType\":1,\"receiver\":null,\"publisher\":{\"_id\":\"5900b2cbdc3bfb20933191c7\",\"name\":\"谢生\",\"gender\":\"male\",\"age\":23,\"phone\":\"12345678910\",\"address\":\"河源是和平县\",\"idNumber\":\"2412525252521\"},\"timestamp\":1493227432743,\"date\":\"2017-04-27\",\"handlers\":[{\"_id\":\"5900b2cbdc3bfb20933191c7\",\"name\":\"谢生\"}],\"imgs\":[],\"__v\":0}]}})"
+*************** response log end ***************
+
+[2017-05-31 15:44:06.550] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /tzgg?tab=relative
+request client ip:  ::1
+request query:  {"tab":"relative"}
+response time: 17
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-notice.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:44:06.672] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/notice/list?type=relative&offset=0&pageSize=10&callback=reqwest_1496216646642
+request client ip:  ::1
+request query:  {"type":"relative","offset":"0","pageSize":"10","callback":"reqwest_1496216646642"}
+response time: 12
+response status: 200
+response body: 
+"reqwest_1496216646642({\"code\":0,\"message\":\"success\",\"data\":{\"total\":11,\"data\":[{\"_id\":\"5900b5230f3bc52288bf8c2b\",\"title\":\"谢小龙\",\"content\":\"电话卡拉升反馈撒国防科技啊颂古非今撒发个，就\",\"receiverType\":2,\"receiverDepartment\":{\"_id\":\"5857d37ac16412478ee55baf\",\"name\":\"科学部门\"},\"publisher\":{\"_id\":\"5900b2cbdc3bfb20933191c7\",\"name\":\"谢生\",\"gender\":\"male\",\"age\":23,\"phone\":\"12345678910\",\"address\":\"河源是和平县\",\"idNumber\":\"2412525252521\"},\"timestamp\":1496214608417,\"date\":\"2017-05-31\",\"handlers\":[{\"_id\":\"5900b2cbdc3bfb20933191c7\",\"name\":\"谢生\"}],\"imgs\":[],\"__v\":0},{\"_id\":\"5900abd63ec8481a9502c6ed\",\"title\":\"dadsakdhj\",\"content\":\"kasjfgsakjfgaksjfasjk\",\"receiverType\":3,\"receiver\":null,\"publisher\":null,\"timestamp\":1496214611795,\"date\":\"2017-05-31\",\"handlers\":[{\"_id\":\"5900b2cbdc3bfb20933191c7\",\"name\":\"谢生\"}],\"imgs\":[],\"__v\":0},{\"_id\":\"5900a976a9b671187228255f\",\"title\":\"测试个人\",\"content\":\"后打开近光灯卡价格的科技啊是国防科技啊舒服过\",\"receiverType\":1,\"receiverDepartment\":{\"_id\":\"5857d37ac16412478ee55baf\",\"name\":\"科学部门\"},\"receiver\":null,\"publisher\":null,\"timestamp\":1493216399042,\"date\":\"2017-04-26\",\"handlers\":[],\"imgs\":[],\"__v\":0},{\"_id\":\"5900a8918d281316f13a25df\",\"title\":\"测试bum\",\"content\":\"后打开近光灯卡价格的科技啊是国防科技啊舒服过\",\"receiverType\":2,\"receiverDepartment\":{\"_id\":\"5857d37ac16412478ee55baf\",\"name\":\"科学部门\"},\"publisher\":null,\"timestamp\":1493220112864,\"date\":\"2017-04-26\",\"handlers\":[],\"imgs\":[],\"__v\":0},{\"_id\":\"5900a8678d281316f13a25de\",\"title\":\"测试全体\",\"content\":\"后打开近光灯卡价格的科技啊是国防科技啊舒服过\",\"receiverType\":3,\"receiver\":null,\"publisher\":null,\"timestamp\":1493215335310,\"date\":\"2017-04-26\",\"handlers\":[],\"imgs\":[],\"__v\":0},{\"_id\":\"5900a821a48fad16b7950dbb\",\"title\":\"全体\",\"content\":\"喝咖啡卡就是国防科技撒发感慨时间啊发噶上课就\",\"receiverType\":3,\"receiver\":null,\"publisher\":null,\"timestamp\":1493227437739,\"date\":\"2017-04-27\",\"handlers\":[],\"imgs\":[],\"__v\":0},{\"_id\":\"59009a607aa7000f94f98004\",\"title\":\"测试\",\"content\":\"啊反馈哈萨克解放后撒开发哈萨克粉丝咖啡噶司空见惯\",\"receiverType\":2,\"receiverDepartment\":{\"_id\":\"5857d37ac16412478ee55baf\",\"name\":\"科学部门\"},\"publisher\":null,\"timestamp\":1493216413964,\"date\":\"2017-04-26\",\"handlers\":[],\"imgs\":[],\"__v\":0},{\"_id\":\"58ff1791b263829c838f51e1\",\"title\":\"测试休闲鞋\",\"content\":\"看见的撒国防科技啊国防高级卡上\",\"receiverType\":3,\"receiverDepartment\":{\"_id\":\"5857d37ac16412478ee55baf\",\"name\":\"科学部门\"},\"receiver\":null,\"publisher\":null,\"timestamp\":1493216307596,\"date\":\"2017-04-26\",\"handlers\":[],\"imgs\":[],\"__v\":0},{\"_id\":\"58ff1789b263829c838f51e0\",\"title\":\"测试\",\"content\":\"看见的撒国防科技啊国防高级卡上\",\"receiverType\":3,\"receiverDepartment\":{\"_id\":\"5857d37ac16412478ee55baf\",\"name\":\"科学部门\"},\"receiver\":null,\"publisher\":null,\"timestamp\":1493113632302,\"date\":\"2017-04-25\",\"handlers\":[{\"_id\":\"58ff1b206560a19d54a1c9b5\",\"user\":\"58529ae8ae6fd22d9d9cd824\"}],\"imgs\":[],\"__v\":0},{\"_id\":\"58ff1784b263829c838f51df\",\"title\":\"测试\",\"content\":\"看见的撒国防科技啊国防高级卡上\",\"receiverType\":2,\"receiverDepartment\":{\"_id\":\"5857d37ac16412478ee55baf\",\"name\":\"科学部门\"},\"publisher\":null,\"timestamp\":1493114672861,\"date\":\"2017-04-25\",\"handlers\":[{\"_id\":\"58ff1f306560a19d54a1c9b6\",\"user\":\"58529ae8ae6fd22d9d9cd824\"}],\"imgs\":[],\"__v\":0}]}})"
+*************** response log end ***************
+
+[2017-05-31 15:44:07.588] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /ydbg
+request client ip:  ::1
+request query:  {}
+response time: 15
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-mobile_office.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:44:07.705] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/news/get?callback=reqwest_1496216647676
+request client ip:  ::1
+request query:  {"callback":"reqwest_1496216647676"}
+response time: 19
+response status: 200
+response body: 
+"reqwest_1496216647676({\"code\":0,\"message\":\"success\",\"data\":{\"data\":{\"plans\":[],\"notices\":[],\"questions\":[],\"consults\":[],\"disasters\":[]}}})"
+*************** response log end ***************
+
+[2017-05-31 15:44:23.756] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /ydbg
+request client ip:  ::1
+request query:  {}
+response time: 37
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-mobile_office.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:44:23.868] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/news/get?callback=reqwest_1496216663843
+request client ip:  ::1
+request query:  {"callback":"reqwest_1496216663843"}
+response time: 16
+response status: 200
+response body: 
+"reqwest_1496216663843({\"code\":0,\"message\":\"success\",\"data\":{\"data\":{\"plans\":[],\"notices\":[],\"questions\":[],\"consults\":[],\"disasters\":[]}}})"
+*************** response log end ***************
+
+[2017-05-31 15:44:24.829] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /ydbg
+request client ip:  ::1
+request query:  {}
+response time: 67
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-mobile_office.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:44:24.934] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/news/get?callback=reqwest_1496216664912
+request client ip:  ::1
+request query:  {"callback":"reqwest_1496216664912"}
+response time: 13
+response status: 200
+response body: 
+"reqwest_1496216664912({\"code\":0,\"message\":\"success\",\"data\":{\"data\":{\"plans\":[],\"notices\":[],\"questions\":[],\"consults\":[],\"disasters\":[]}}})"
+*************** response log end ***************
+
+[2017-05-31 15:44:25.065] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /ydbg
+request client ip:  ::1
+request query:  {}
+response time: 30
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-mobile_office.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:44:25.209] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/news/get?callback=reqwest_1496216665186
+request client ip:  ::1
+request query:  {"callback":"reqwest_1496216665186"}
+response time: 13
+response status: 200
+response body: 
+"reqwest_1496216665186({\"code\":0,\"message\":\"success\",\"data\":{\"data\":{\"plans\":[],\"notices\":[],\"questions\":[],\"consults\":[],\"disasters\":[]}}})"
+*************** response log end ***************
+
+[2017-05-31 15:44:27.065] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 19
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-home_page.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:44:27.177] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/page/get?name=home&callback=reqwest_1496216667160
+request client ip:  ::1
+request query:  {"name":"home","callback":"reqwest_1496216667160"}
+response time: 2
+response status: 200
+response body: 
+"reqwest_1496216667160({\"code\":0,\"message\":\"success\",\"data\":{\"_id\":\"5857fdfe1247be4c153dc39e\",\"name\":\"home\",\"text\":\"网站首页\",\"url\":\"/\",\"desc\":\"江西赣州人民政府，是全心全意为人民服务的政府,\",\"tabs\":[],\"banners\":[{\"_id\":\"5857feaf3c5a3a4c1de60ba5\",\"url\":\"www.baidu.com\",\"img\":\"https://img.alicdn.com/tfscom/TB1VkY0OFXXXXXJaFXXSutbFXXX.jpg\"},{\"_id\":\"5857feaf3c5a3a4c1de60ba4\",\"url\":\"www.tm.com\",\"img\":\"http://img.alicdn.com/tfscom/TB1C8EGOpXXXXX0XVXXSutbFXXX.jpg\"}],\"__v\":0}})"
+*************** response log end ***************
+
+[2017-05-31 15:44:27.305] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/article/feeds?tab=%7B%7D&page=%7B%22name%22%3A%22home%22%2C%22text%22%3A%22%E7%BD%91%E7%AB%99%E9%A6%96%E9%A1%B5%22%7D&offset=0&pageSize=10&callback=reqwest_1496216667160
+request client ip:  ::1
+request query:  {"tab":"{}","page":"{\"name\":\"home\",\"text\":\"网站首页\"}","offset":"0","pageSize":"10","callback":"reqwest_1496216667160"}
+response time: 6
+response status: 200
+response body: 
+"reqwest_1496216667160({\"code\":0,\"message\":\"success\",\"data\":{\"total\":3,\"data\":[{\"_id\":\"590157f14e32710c4ff35807\",\"title\":\"大大\",\"cover\":\"\",\"desc\":\"发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布\",\"date\":\"2017-04-27\",\"url\":\"http://localhost/wzxq?id=590157f14e32710c4ff35807\"},{\"_id\":\"5901565e4e32710c4ff35806\",\"title\":\"首页测试文章1\",\"cover\":\"\",\"desc\":\"发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布\",\"date\":\"2017-04-27\",\"url\":\"http://localhost/wzxq?id=5901565e4e32710c4ff35806\"},{\"_id\":\"5901561b4e32710c4ff35805\",\"title\":\"首页测试文章2\",\"cover\":\"\",\"desc\":\"发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布\",\"date\":\"2017-04-27\",\"url\":\"http://localhost/wzxq?id=5901561b4e32710c4ff35805\"}]}})"
+*************** response log end ***************
+
+[2017-05-31 15:44:28.730] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /xxzx?tab=all
+request client ip:  ::1
+request query:  {"tab":"all"}
+response time: 3
+response status: 200
+response body: 
+"对不起，您不是乡贤，暂无权限访问该页面"
+*************** response log end ***************
+
+[2017-05-31 15:44:30.498] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 32
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-home_page.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:44:30.600] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/page/get?name=home&callback=reqwest_1496216670584
+request client ip:  ::1
+request query:  {"name":"home","callback":"reqwest_1496216670584"}
+response time: 4
+response status: 200
+response body: 
+"reqwest_1496216670584({\"code\":0,\"message\":\"success\",\"data\":{\"_id\":\"5857fdfe1247be4c153dc39e\",\"name\":\"home\",\"text\":\"网站首页\",\"url\":\"/\",\"desc\":\"江西赣州人民政府，是全心全意为人民服务的政府,\",\"tabs\":[],\"banners\":[{\"_id\":\"5857feaf3c5a3a4c1de60ba5\",\"url\":\"www.baidu.com\",\"img\":\"https://img.alicdn.com/tfscom/TB1VkY0OFXXXXXJaFXXSutbFXXX.jpg\"},{\"_id\":\"5857feaf3c5a3a4c1de60ba4\",\"url\":\"www.tm.com\",\"img\":\"http://img.alicdn.com/tfscom/TB1C8EGOpXXXXX0XVXXSutbFXXX.jpg\"}],\"__v\":0}})"
+*************** response log end ***************
+
+[2017-05-31 15:44:30.723] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/article/feeds?tab=%7B%7D&page=%7B%22name%22%3A%22home%22%2C%22text%22%3A%22%E7%BD%91%E7%AB%99%E9%A6%96%E9%A1%B5%22%7D&offset=0&pageSize=10&callback=reqwest_1496216670584
+request client ip:  ::1
+request query:  {"tab":"{}","page":"{\"name\":\"home\",\"text\":\"网站首页\"}","offset":"0","pageSize":"10","callback":"reqwest_1496216670584"}
+response time: 5
+response status: 200
+response body: 
+"reqwest_1496216670584({\"code\":0,\"message\":\"success\",\"data\":{\"total\":3,\"data\":[{\"_id\":\"590157f14e32710c4ff35807\",\"title\":\"大大\",\"cover\":\"\",\"desc\":\"发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布\",\"date\":\"2017-04-27\",\"url\":\"http://localhost/wzxq?id=590157f14e32710c4ff35807\"},{\"_id\":\"5901565e4e32710c4ff35806\",\"title\":\"首页测试文章1\",\"cover\":\"\",\"desc\":\"发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布\",\"date\":\"2017-04-27\",\"url\":\"http://localhost/wzxq?id=5901565e4e32710c4ff35806\"},{\"_id\":\"5901561b4e32710c4ff35805\",\"title\":\"首页测试文章2\",\"cover\":\"\",\"desc\":\"发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布\",\"date\":\"2017-04-27\",\"url\":\"http://localhost/wzxq?id=5901561b4e32710c4ff35805\"}]}})"
+*************** response log end ***************
+
+[2017-05-31 15:44:31.540] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /ydbg
+request client ip:  ::1
+request query:  {}
+response time: 27
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-mobile_office.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:44:31.643] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/news/get?callback=reqwest_1496216671619
+request client ip:  ::1
+request query:  {"callback":"reqwest_1496216671619"}
+response time: 15
+response status: 200
+response body: 
+"reqwest_1496216671619({\"code\":0,\"message\":\"success\",\"data\":{\"data\":{\"plans\":[],\"notices\":[],\"questions\":[],\"consults\":[],\"disasters\":[]}}})"
+*************** response log end ***************
+
+[2017-05-31 15:44:33.324] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 13
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-home_page.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:44:33.428] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/page/get?name=home&callback=reqwest_1496216673412
+request client ip:  ::1
+request query:  {"name":"home","callback":"reqwest_1496216673412"}
+response time: 3
+response status: 200
+response body: 
+"reqwest_1496216673412({\"code\":0,\"message\":\"success\",\"data\":{\"_id\":\"5857fdfe1247be4c153dc39e\",\"name\":\"home\",\"text\":\"网站首页\",\"url\":\"/\",\"desc\":\"江西赣州人民政府，是全心全意为人民服务的政府,\",\"tabs\":[],\"banners\":[{\"_id\":\"5857feaf3c5a3a4c1de60ba5\",\"url\":\"www.baidu.com\",\"img\":\"https://img.alicdn.com/tfscom/TB1VkY0OFXXXXXJaFXXSutbFXXX.jpg\"},{\"_id\":\"5857feaf3c5a3a4c1de60ba4\",\"url\":\"www.tm.com\",\"img\":\"http://img.alicdn.com/tfscom/TB1C8EGOpXXXXX0XVXXSutbFXXX.jpg\"}],\"__v\":0}})"
+*************** response log end ***************
+
+[2017-05-31 15:44:33.541] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/article/feeds?tab=%7B%7D&page=%7B%22name%22%3A%22home%22%2C%22text%22%3A%22%E7%BD%91%E7%AB%99%E9%A6%96%E9%A1%B5%22%7D&offset=0&pageSize=10&callback=reqwest_1496216673412
+request client ip:  ::1
+request query:  {"tab":"{}","page":"{\"name\":\"home\",\"text\":\"网站首页\"}","offset":"0","pageSize":"10","callback":"reqwest_1496216673412"}
+response time: 4
+response status: 200
+response body: 
+"reqwest_1496216673412({\"code\":0,\"message\":\"success\",\"data\":{\"total\":3,\"data\":[{\"_id\":\"590157f14e32710c4ff35807\",\"title\":\"大大\",\"cover\":\"\",\"desc\":\"发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布\",\"date\":\"2017-04-27\",\"url\":\"http://localhost/wzxq?id=590157f14e32710c4ff35807\"},{\"_id\":\"5901565e4e32710c4ff35806\",\"title\":\"首页测试文章1\",\"cover\":\"\",\"desc\":\"发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布\",\"date\":\"2017-04-27\",\"url\":\"http://localhost/wzxq?id=5901565e4e32710c4ff35806\"},{\"_id\":\"5901561b4e32710c4ff35805\",\"title\":\"首页测试文章2\",\"cover\":\"\",\"desc\":\"发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布\",\"date\":\"2017-04-27\",\"url\":\"http://localhost/wzxq?id=5901561b4e32710c4ff35805\"}]}})"
+*************** response log end ***************
+
+[2017-05-31 15:44:40.320] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 11
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-home_page.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:44:40.427] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/page/get?name=home&callback=reqwest_1496216680411
+request client ip:  ::1
+request query:  {"name":"home","callback":"reqwest_1496216680411"}
+response time: 1
+response status: 200
+response body: 
+"reqwest_1496216680411({\"code\":0,\"message\":\"success\",\"data\":{\"_id\":\"5857fdfe1247be4c153dc39e\",\"name\":\"home\",\"text\":\"网站首页\",\"url\":\"/\",\"desc\":\"江西赣州人民政府，是全心全意为人民服务的政府,\",\"tabs\":[],\"banners\":[{\"_id\":\"5857feaf3c5a3a4c1de60ba5\",\"url\":\"www.baidu.com\",\"img\":\"https://img.alicdn.com/tfscom/TB1VkY0OFXXXXXJaFXXSutbFXXX.jpg\"},{\"_id\":\"5857feaf3c5a3a4c1de60ba4\",\"url\":\"www.tm.com\",\"img\":\"http://img.alicdn.com/tfscom/TB1C8EGOpXXXXX0XVXXSutbFXXX.jpg\"}],\"__v\":0}})"
+*************** response log end ***************
+
+[2017-05-31 15:44:40.562] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/article/feeds?tab=%7B%7D&page=%7B%22name%22%3A%22home%22%2C%22text%22%3A%22%E7%BD%91%E7%AB%99%E9%A6%96%E9%A1%B5%22%7D&offset=0&pageSize=10&callback=reqwest_1496216680411
+request client ip:  ::1
+request query:  {"tab":"{}","page":"{\"name\":\"home\",\"text\":\"网站首页\"}","offset":"0","pageSize":"10","callback":"reqwest_1496216680411"}
+response time: 5
+response status: 200
+response body: 
+"reqwest_1496216680411({\"code\":0,\"message\":\"success\",\"data\":{\"total\":3,\"data\":[{\"_id\":\"590157f14e32710c4ff35807\",\"title\":\"大大\",\"cover\":\"\",\"desc\":\"发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布\",\"date\":\"2017-04-27\",\"url\":\"http://localhost/wzxq?id=590157f14e32710c4ff35807\"},{\"_id\":\"5901565e4e32710c4ff35806\",\"title\":\"首页测试文章1\",\"cover\":\"\",\"desc\":\"发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布\",\"date\":\"2017-04-27\",\"url\":\"http://localhost/wzxq?id=5901565e4e32710c4ff35806\"},{\"_id\":\"5901561b4e32710c4ff35805\",\"title\":\"首页测试文章2\",\"cover\":\"\",\"desc\":\"发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布\",\"date\":\"2017-04-27\",\"url\":\"http://localhost/wzxq?id=5901561b4e32710c4ff35805\"}]}})"
+*************** response log end ***************
+
+[2017-05-31 15:44:41.890] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /ydbg
+request client ip:  ::1
+request query:  {}
+response time: 7
+response status: 302
+response body: 
+"对不起，您不是政府职员，暂无权限访问该页面"
+*************** response log end ***************
+
+[2017-05-31 15:44:41.907] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /login?redirectURL=%2Fydbg
+request client ip:  ::1
+request query:  {"redirectURL":"/ydbg"}
+response time: 9
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-login.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:44:43.476] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 12
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-home_page.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:44:43.576] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/page/get?name=home&callback=reqwest_1496216683562
+request client ip:  ::1
+request query:  {"name":"home","callback":"reqwest_1496216683562"}
+response time: 2
+response status: 200
+response body: 
+"reqwest_1496216683562({\"code\":0,\"message\":\"success\",\"data\":{\"_id\":\"5857fdfe1247be4c153dc39e\",\"name\":\"home\",\"text\":\"网站首页\",\"url\":\"/\",\"desc\":\"江西赣州人民政府，是全心全意为人民服务的政府,\",\"tabs\":[],\"banners\":[{\"_id\":\"5857feaf3c5a3a4c1de60ba5\",\"url\":\"www.baidu.com\",\"img\":\"https://img.alicdn.com/tfscom/TB1VkY0OFXXXXXJaFXXSutbFXXX.jpg\"},{\"_id\":\"5857feaf3c5a3a4c1de60ba4\",\"url\":\"www.tm.com\",\"img\":\"http://img.alicdn.com/tfscom/TB1C8EGOpXXXXX0XVXXSutbFXXX.jpg\"}],\"__v\":0}})"
+*************** response log end ***************
+
+[2017-05-31 15:44:43.687] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/article/feeds?tab=%7B%7D&page=%7B%22name%22%3A%22home%22%2C%22text%22%3A%22%E7%BD%91%E7%AB%99%E9%A6%96%E9%A1%B5%22%7D&offset=0&pageSize=10&callback=reqwest_1496216683562
+request client ip:  ::1
+request query:  {"tab":"{}","page":"{\"name\":\"home\",\"text\":\"网站首页\"}","offset":"0","pageSize":"10","callback":"reqwest_1496216683562"}
+response time: 3
+response status: 200
+response body: 
+"reqwest_1496216683562({\"code\":0,\"message\":\"success\",\"data\":{\"total\":3,\"data\":[{\"_id\":\"590157f14e32710c4ff35807\",\"title\":\"大大\",\"cover\":\"\",\"desc\":\"发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布\",\"date\":\"2017-04-27\",\"url\":\"http://localhost/wzxq?id=590157f14e32710c4ff35807\"},{\"_id\":\"5901565e4e32710c4ff35806\",\"title\":\"首页测试文章1\",\"cover\":\"\",\"desc\":\"发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布\",\"date\":\"2017-04-27\",\"url\":\"http://localhost/wzxq?id=5901565e4e32710c4ff35806\"},{\"_id\":\"5901561b4e32710c4ff35805\",\"title\":\"首页测试文章2\",\"cover\":\"\",\"desc\":\"发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布\",\"date\":\"2017-04-27\",\"url\":\"http://localhost/wzxq?id=5901561b4e32710c4ff35805\"}]}})"
+*************** response log end ***************
+
+[2017-05-31 15:44:44.576] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /grzx
+request client ip:  ::1
+request query:  {}
+response time: 14
+response status: 302
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-personal_center.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:44:44.590] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /login?redirectURL=%2Fgrzx
+request client ip:  ::1
+request query:  {"redirectURL":"/grzx"}
+response time: 10
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-login.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:50:24.718] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::1
+request body: 
+{"account":"12345678910","password":"brucexie1993"}
+response time: 5
+response status: 200
+response body: 
+{"code":0,"message":"success","data":{}}
+*************** response log end ***************
+
+[2017-05-31 15:50:24.743] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /grzx
+request client ip:  ::1
+request query:  {}
+response time: 15
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-personal_center.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:50:24.870] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/get?callback=reqwest_1496217024860
+request client ip:  ::1
+request query:  {"callback":"reqwest_1496217024860"}
+response time: 3
+response status: 200
+response body: 
+"reqwest_1496217024860({\"code\":0,\"message\":\"success\",\"data\":{\"_id\":\"5900b2cbdc3bfb20933191c7\",\"name\":\"谢生\",\"gender\":\"male\",\"age\":23,\"phone\":\"12345678910\",\"address\":\"河源是和平县\",\"birthplace\":\"广东\",\"idNumber\":\"2412*****2521\",\"level\":4,\"position\":\"部长\",\"realnameStatus\":2,\"realnameResult\":\"已认证\",\"department\":\"5857d37ac16412478ee55baf\",\"account\":\"12345678910\",\"password\":\"fe36993370c34329fd223eb620f56baa\",\"__v\":0}})"
+*************** response log end ***************
+
+[2017-05-31 15:50:27.936] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /ydbg
+request client ip:  ::1
+request query:  {}
+response time: 11
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-mobile_office.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:50:28.051] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/news/get?callback=reqwest_1496217028022
+request client ip:  ::1
+request query:  {"callback":"reqwest_1496217028022"}
+response time: 20
+response status: 200
+response body: 
+"reqwest_1496217028022({\"code\":0,\"message\":\"success\",\"data\":{\"data\":{\"plans\":[],\"notices\":[],\"questions\":[],\"consults\":[],\"disasters\":[]}}})"
+*************** response log end ***************
+
+[2017-05-31 15:50:29.235] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /gzjh?tab=consult
+request client ip:  ::1
+request query:  {"tab":"consult"}
+response time: 16
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-work_plan.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:50:29.352] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/consult/list?type=relative&offset=0&pageSize=10&callback=reqwest_1496217029326
+request client ip:  ::1
+request query:  {"type":"relative","offset":"0","pageSize":"10","callback":"reqwest_1496217029326"}
+response time: 9
+response status: 200
+response body: 
+"reqwest_1496217029326({\"code\":0,\"message\":\"success\",\"data\":{\"total\":0,\"data\":[]}})"
+*************** response log end ***************
+
+[2017-05-31 15:50:30.312] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /gzjh?tab=plan
+request client ip:  ::1
+request query:  {"tab":"plan"}
+response time: 10
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-work_plan.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:50:30.431] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/plan/list?type=my&offset=0&pageSize=10&callback=reqwest_1496217030407
+request client ip:  ::1
+request query:  {"type":"my","offset":"0","pageSize":"10","callback":"reqwest_1496217030407"}
+response time: 4
+response status: 200
+response body: 
+"reqwest_1496217030407({\"code\":0,\"message\":\"success\",\"data\":{\"total\":1,\"data\":[{\"_id\":\"5925a7ff938102d6e971c1da\",\"title\":\"第一个计划\",\"content\":\"积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服\",\"startDate\":\"2017-06-01\",\"endDate\":\"2017-07-01\",\"receiverType\":3,\"receiver\":null,\"publisher\":{\"_id\":\"5900b2cbdc3bfb20933191c7\",\"name\":\"谢生\",\"gender\":\"male\",\"age\":23,\"phone\":\"12345678910\",\"address\":\"河源是和平县\",\"idNumber\":\"2412525252521\"},\"timestamp\":1496216325233,\"date\":\"2017-05-31\",\"handlers\":[{\"imgs\":[],\"_id\":\"592e727a0ef739f8e19d181d\",\"username\":\"谢生\",\"result\":\"11111\",\"status\":1,\"user\":\"5900b2cbdc3bfb20933191c7\"},{\"imgs\":[],\"_id\":\"592e73058e0fb8f9a53c2c48\",\"username\":\"孟小姐\",\"result\":\"你妹\",\"status\":2,\"user\":\"592306822ec3727cb2607352\"}],\"imgs\":[],\"__v\":0}]}})"
+*************** response log end ***************
+
+[2017-05-31 15:50:31.649] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /swxq?id=5925a7ff938102d6e971c1da&type=plan&mode=write
+request client ip:  ::1
+request query:  {"id":"5925a7ff938102d6e971c1da","type":"plan","mode":"write"}
+response time: 11
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-issue_detail.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:50:31.758] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/plan/get?id=5925a7ff938102d6e971c1da&callback=reqwest_1496217031735
+request client ip:  ::1
+request query:  {"id":"5925a7ff938102d6e971c1da","callback":"reqwest_1496217031735"}
+response time: 6
+response status: 200
+response body: 
+"reqwest_1496217031735({\"code\":0,\"message\":\"success\",\"data\":{\"_id\":\"5925a7ff938102d6e971c1da\",\"title\":\"第一个计划\",\"content\":\"积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服\",\"startDate\":\"2017-06-01\",\"endDate\":\"2017-07-01\",\"receiverType\":3,\"receiver\":null,\"publisher\":{\"_id\":\"5900b2cbdc3bfb20933191c7\",\"name\":\"谢生\",\"phone\":\"12345678910\",\"address\":\"河源是和平县\"},\"timestamp\":1496216325233,\"date\":\"2017-05-31\",\"handlers\":[{\"imgs\":[],\"_id\":\"592e727a0ef739f8e19d181d\",\"username\":\"谢生\",\"result\":\"11111\",\"status\":1,\"user\":{\"_id\":\"5900b2cbdc3bfb20933191c7\",\"name\":\"谢生\"}},{\"imgs\":[],\"_id\":\"592e73058e0fb8f9a53c2c48\",\"username\":\"孟小姐\",\"result\":\"你妹\",\"status\":2,\"user\":{\"_id\":\"592306822ec3727cb2607352\",\"name\":\"孟小姐\"}}],\"imgs\":[],\"__v\":0,\"isMy\":true,\"unhandlers\":[{\"_id\":\"592306222ec3727cb2607351\",\"name\":\"谢小龙\"}],\"status\":0}})"
+*************** response log end ***************
+
+[2017-05-31 15:50:36.031] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /gzjh?tab=plan
+request client ip:  ::1
+request query:  {"tab":"plan"}
+response time: 15
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-work_plan.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:50:36.151] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/plan/list?type=my&offset=0&pageSize=10&callback=reqwest_1496217036127
+request client ip:  ::1
+request query:  {"type":"my","offset":"0","pageSize":"10","callback":"reqwest_1496217036127"}
+response time: 5
+response status: 200
+response body: 
+"reqwest_1496217036127({\"code\":0,\"message\":\"success\",\"data\":{\"total\":1,\"data\":[{\"_id\":\"5925a7ff938102d6e971c1da\",\"title\":\"第一个计划\",\"content\":\"积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服\",\"startDate\":\"2017-06-01\",\"endDate\":\"2017-07-01\",\"receiverType\":3,\"receiver\":null,\"publisher\":{\"_id\":\"5900b2cbdc3bfb20933191c7\",\"name\":\"谢生\",\"gender\":\"male\",\"age\":23,\"phone\":\"12345678910\",\"address\":\"河源是和平县\",\"idNumber\":\"2412525252521\"},\"timestamp\":1496216325233,\"date\":\"2017-05-31\",\"handlers\":[{\"imgs\":[],\"_id\":\"592e727a0ef739f8e19d181d\",\"username\":\"谢生\",\"result\":\"11111\",\"status\":1,\"user\":\"5900b2cbdc3bfb20933191c7\"},{\"imgs\":[],\"_id\":\"592e73058e0fb8f9a53c2c48\",\"username\":\"孟小姐\",\"result\":\"你妹\",\"status\":2,\"user\":\"592306822ec3727cb2607352\"}],\"imgs\":[],\"__v\":0}]}})"
+*************** response log end ***************
+
+[2017-05-31 15:50:36.976] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/plan/list?type=relative&offset=0&pageSize=10&callback=reqwest_1496217036127
+request client ip:  ::1
+request query:  {"type":"relative","offset":"0","pageSize":"10","callback":"reqwest_1496217036127"}
+response time: 6
+response status: 200
+response body: 
+"reqwest_1496217036127({\"code\":0,\"message\":\"success\",\"data\":{\"total\":1,\"data\":[{\"_id\":\"5925a7ff938102d6e971c1da\",\"title\":\"第一个计划\",\"content\":\"积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服\",\"startDate\":\"2017-06-01\",\"endDate\":\"2017-07-01\",\"receiverType\":3,\"receiver\":null,\"publisher\":{\"_id\":\"5900b2cbdc3bfb20933191c7\",\"name\":\"谢生\",\"gender\":\"male\",\"age\":23,\"phone\":\"12345678910\",\"address\":\"河源是和平县\",\"idNumber\":\"2412525252521\"},\"timestamp\":1496216325233,\"date\":\"2017-05-31\",\"handlers\":[{\"imgs\":[],\"_id\":\"592e727a0ef739f8e19d181d\",\"username\":\"谢生\",\"result\":\"11111\",\"status\":1,\"user\":\"5900b2cbdc3bfb20933191c7\"},{\"imgs\":[],\"_id\":\"592e73058e0fb8f9a53c2c48\",\"username\":\"孟小姐\",\"result\":\"你妹\",\"status\":2,\"user\":\"592306822ec3727cb2607352\"}],\"imgs\":[],\"__v\":0,\"status\":1,\"result\":\"11111\",\"resultImgs\":[]}]}})"
+*************** response log end ***************
+
+[2017-05-31 15:50:38.679] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /gzjh?tab=disaster
+request client ip:  ::1
+request query:  {"tab":"disaster"}
+response time: 15
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-work_plan.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:50:38.798] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/disaster/list?type=relative&offset=0&pageSize=10&callback=reqwest_1496217038774
+request client ip:  ::1
+request query:  {"type":"relative","offset":"0","pageSize":"10","callback":"reqwest_1496217038774"}
+response time: 7
+response status: 200
+response body: 
+"reqwest_1496217038774({\"code\":0,\"message\":\"success\",\"data\":{\"total\":0,\"data\":[]}})"
+*************** response log end ***************
+
+[2017-05-31 15:50:39.492] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /gzjh?tab=question
+request client ip:  ::1
+request query:  {"tab":"question"}
+response time: 13
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-work_plan.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:50:39.630] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/question/list?type=relative&offset=0&pageSize=10&callback=reqwest_1496217039605
+request client ip:  ::1
+request query:  {"type":"relative","offset":"0","pageSize":"10","callback":"reqwest_1496217039605"}
+response time: 11
+response status: 200
+response body: 
+"reqwest_1496217039605({\"code\":0,\"message\":\"success\",\"data\":{\"total\":0,\"data\":[]}})"
+*************** response log end ***************
+
+[2017-05-31 15:50:40.111] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /gzjh?tab=consult
+request client ip:  ::1
+request query:  {"tab":"consult"}
+response time: 15
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-work_plan.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:50:40.221] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/consult/list?type=relative&offset=0&pageSize=10&callback=reqwest_1496217040200
+request client ip:  ::1
+request query:  {"type":"relative","offset":"0","pageSize":"10","callback":"reqwest_1496217040200"}
+response time: 6
+response status: 200
+response body: 
+"reqwest_1496217040200({\"code\":0,\"message\":\"success\",\"data\":{\"total\":0,\"data\":[]}})"
+*************** response log end ***************
+
+[2017-05-31 15:50:40.897] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /gzjh?tab=plan
+request client ip:  ::1
+request query:  {"tab":"plan"}
+response time: 11
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-work_plan.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:50:41.014] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/plan/list?type=my&offset=0&pageSize=10&callback=reqwest_1496217040991
+request client ip:  ::1
+request query:  {"type":"my","offset":"0","pageSize":"10","callback":"reqwest_1496217040991"}
+response time: 4
+response status: 200
+response body: 
+"reqwest_1496217040991({\"code\":0,\"message\":\"success\",\"data\":{\"total\":1,\"data\":[{\"_id\":\"5925a7ff938102d6e971c1da\",\"title\":\"第一个计划\",\"content\":\"积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服\",\"startDate\":\"2017-06-01\",\"endDate\":\"2017-07-01\",\"receiverType\":3,\"receiver\":null,\"publisher\":{\"_id\":\"5900b2cbdc3bfb20933191c7\",\"name\":\"谢生\",\"gender\":\"male\",\"age\":23,\"phone\":\"12345678910\",\"address\":\"河源是和平县\",\"idNumber\":\"2412525252521\"},\"timestamp\":1496216325233,\"date\":\"2017-05-31\",\"handlers\":[{\"imgs\":[],\"_id\":\"592e727a0ef739f8e19d181d\",\"username\":\"谢生\",\"result\":\"11111\",\"status\":1,\"user\":\"5900b2cbdc3bfb20933191c7\"},{\"imgs\":[],\"_id\":\"592e73058e0fb8f9a53c2c48\",\"username\":\"孟小姐\",\"result\":\"你妹\",\"status\":2,\"user\":\"592306822ec3727cb2607352\"}],\"imgs\":[],\"__v\":0}]}})"
+*************** response log end ***************
+
+[2017-05-31 15:50:42.462] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/plan/list?type=relative&offset=0&pageSize=10&callback=reqwest_1496217040991
+request client ip:  ::1
+request query:  {"type":"relative","offset":"0","pageSize":"10","callback":"reqwest_1496217040991"}
+response time: 10
+response status: 200
+response body: 
+"reqwest_1496217040991({\"code\":0,\"message\":\"success\",\"data\":{\"total\":1,\"data\":[{\"_id\":\"5925a7ff938102d6e971c1da\",\"title\":\"第一个计划\",\"content\":\"积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服\",\"startDate\":\"2017-06-01\",\"endDate\":\"2017-07-01\",\"receiverType\":3,\"receiver\":null,\"publisher\":{\"_id\":\"5900b2cbdc3bfb20933191c7\",\"name\":\"谢生\",\"gender\":\"male\",\"age\":23,\"phone\":\"12345678910\",\"address\":\"河源是和平县\",\"idNumber\":\"2412525252521\"},\"timestamp\":1496216325233,\"date\":\"2017-05-31\",\"handlers\":[{\"imgs\":[],\"_id\":\"592e727a0ef739f8e19d181d\",\"username\":\"谢生\",\"result\":\"11111\",\"status\":1,\"user\":\"5900b2cbdc3bfb20933191c7\"},{\"imgs\":[],\"_id\":\"592e73058e0fb8f9a53c2c48\",\"username\":\"孟小姐\",\"result\":\"你妹\",\"status\":2,\"user\":\"592306822ec3727cb2607352\"}],\"imgs\":[],\"__v\":0,\"status\":1,\"result\":\"11111\",\"resultImgs\":[]}]}})"
+*************** response log end ***************
+
+[2017-05-31 15:50:43.455] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /swxq?id=5925a7ff938102d6e971c1da&type=plan&mode=write
+request client ip:  ::1
+request query:  {"id":"5925a7ff938102d6e971c1da","type":"plan","mode":"write"}
+response time: 10
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-issue_detail.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:50:43.563] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/plan/get?id=5925a7ff938102d6e971c1da&callback=reqwest_1496217043539
+request client ip:  ::1
+request query:  {"id":"5925a7ff938102d6e971c1da","callback":"reqwest_1496217043539"}
+response time: 7
+response status: 200
+response body: 
+"reqwest_1496217043539({\"code\":0,\"message\":\"success\",\"data\":{\"_id\":\"5925a7ff938102d6e971c1da\",\"title\":\"第一个计划\",\"content\":\"积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服\",\"startDate\":\"2017-06-01\",\"endDate\":\"2017-07-01\",\"receiverType\":3,\"receiver\":null,\"publisher\":{\"_id\":\"5900b2cbdc3bfb20933191c7\",\"name\":\"谢生\",\"phone\":\"12345678910\",\"address\":\"河源是和平县\"},\"timestamp\":1496216325233,\"date\":\"2017-05-31\",\"handlers\":[{\"imgs\":[],\"_id\":\"592e727a0ef739f8e19d181d\",\"username\":\"谢生\",\"result\":\"11111\",\"status\":1,\"user\":{\"_id\":\"5900b2cbdc3bfb20933191c7\",\"name\":\"谢生\"}},{\"imgs\":[],\"_id\":\"592e73058e0fb8f9a53c2c48\",\"username\":\"孟小姐\",\"result\":\"你妹\",\"status\":2,\"user\":{\"_id\":\"592306822ec3727cb2607352\",\"name\":\"孟小姐\"}}],\"imgs\":[],\"__v\":0,\"isMy\":true,\"unhandlers\":[{\"_id\":\"592306222ec3727cb2607351\",\"name\":\"谢小龙\"}],\"status\":0}})"
+*************** response log end ***************
+
+[2017-05-31 15:50:57.669] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/plan/reply?id=5925a7ff938102d6e971c1da&data=%7B%22status%22%3A%222%22%2C%22result%22%3A%22%E5%91%B5%E5%91%B5%E5%93%92%22%7D&callback=reqwest_1496217043539
+request client ip:  ::1
+request query:  {"id":"5925a7ff938102d6e971c1da","data":"{\"status\":\"2\",\"result\":\"呵呵哒\"}","callback":"reqwest_1496217043539"}
+response time: 17
+response status: 200
+response body: 
+"reqwest_1496217043539({\"code\":0,\"message\":\"success\",\"data\":{\"data\":{\"n\":1,\"nModified\":1,\"ok\":1}}})"
+*************** response log end ***************
+
+[2017-05-31 15:51:00.176] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /gzjh?tab=plan
+request client ip:  ::1
+request query:  {"tab":"plan"}
+response time: 31
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-work_plan.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:51:00.302] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/plan/list?type=my&offset=0&pageSize=10&callback=reqwest_1496217060275
+request client ip:  ::1
+request query:  {"type":"my","offset":"0","pageSize":"10","callback":"reqwest_1496217060275"}
+response time: 5
+response status: 200
+response body: 
+"reqwest_1496217060275({\"code\":0,\"message\":\"success\",\"data\":{\"total\":1,\"data\":[{\"_id\":\"5925a7ff938102d6e971c1da\",\"title\":\"第一个计划\",\"content\":\"积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服\",\"startDate\":\"2017-06-01\",\"endDate\":\"2017-07-01\",\"receiverType\":3,\"receiver\":null,\"publisher\":{\"_id\":\"5900b2cbdc3bfb20933191c7\",\"name\":\"谢生\",\"gender\":\"male\",\"age\":23,\"phone\":\"12345678910\",\"address\":\"河源是和平县\",\"idNumber\":\"2412525252521\"},\"timestamp\":1496217057655,\"date\":\"2017-05-31\",\"handlers\":[{\"imgs\":[],\"user\":\"592306822ec3727cb2607352\",\"status\":2,\"result\":\"你妹\",\"username\":\"孟小姐\",\"_id\":\"592e73058e0fb8f9a53c2c48\"},{\"imgs\":[],\"_id\":\"592e75e1ac002ffb74d95712\",\"username\":\"谢生\",\"result\":\"呵呵哒\",\"status\":2,\"user\":\"5900b2cbdc3bfb20933191c7\"}],\"imgs\":[],\"__v\":0}]}})"
+*************** response log end ***************
+
+[2017-05-31 15:51:02.281] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/plan/list?type=relative&offset=0&pageSize=10&callback=reqwest_1496217060275
+request client ip:  ::1
+request query:  {"type":"relative","offset":"0","pageSize":"10","callback":"reqwest_1496217060275"}
+response time: 6
+response status: 200
+response body: 
+"reqwest_1496217060275({\"code\":0,\"message\":\"success\",\"data\":{\"total\":1,\"data\":[{\"_id\":\"5925a7ff938102d6e971c1da\",\"title\":\"第一个计划\",\"content\":\"积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服\",\"startDate\":\"2017-06-01\",\"endDate\":\"2017-07-01\",\"receiverType\":3,\"receiver\":null,\"publisher\":{\"_id\":\"5900b2cbdc3bfb20933191c7\",\"name\":\"谢生\",\"gender\":\"male\",\"age\":23,\"phone\":\"12345678910\",\"address\":\"河源是和平县\",\"idNumber\":\"2412525252521\"},\"timestamp\":1496217057655,\"date\":\"2017-05-31\",\"handlers\":[{\"imgs\":[],\"user\":\"592306822ec3727cb2607352\",\"status\":2,\"result\":\"你妹\",\"username\":\"孟小姐\",\"_id\":\"592e73058e0fb8f9a53c2c48\"},{\"imgs\":[],\"_id\":\"592e75e1ac002ffb74d95712\",\"username\":\"谢生\",\"result\":\"呵呵哒\",\"status\":2,\"user\":\"5900b2cbdc3bfb20933191c7\"}],\"imgs\":[],\"__v\":0,\"status\":2,\"result\":\"呵呵哒\",\"resultImgs\":[]}]}})"
+*************** response log end ***************
+
+[2017-05-31 15:51:02.995] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /swxq?id=5925a7ff938102d6e971c1da&type=plan&mode=write
+request client ip:  ::1
+request query:  {"id":"5925a7ff938102d6e971c1da","type":"plan","mode":"write"}
+response time: 23
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-issue_detail.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:51:03.108] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/plan/get?id=5925a7ff938102d6e971c1da&callback=reqwest_1496217063084
+request client ip:  ::1
+request query:  {"id":"5925a7ff938102d6e971c1da","callback":"reqwest_1496217063084"}
+response time: 7
+response status: 200
+response body: 
+"reqwest_1496217063084({\"code\":0,\"message\":\"success\",\"data\":{\"_id\":\"5925a7ff938102d6e971c1da\",\"title\":\"第一个计划\",\"content\":\"积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服\",\"startDate\":\"2017-06-01\",\"endDate\":\"2017-07-01\",\"receiverType\":3,\"receiver\":null,\"publisher\":{\"_id\":\"5900b2cbdc3bfb20933191c7\",\"name\":\"谢生\",\"phone\":\"12345678910\",\"address\":\"河源是和平县\"},\"timestamp\":1496217057655,\"date\":\"2017-05-31\",\"handlers\":[{\"imgs\":[],\"user\":{\"_id\":\"592306822ec3727cb2607352\",\"name\":\"孟小姐\"},\"status\":2,\"result\":\"你妹\",\"username\":\"孟小姐\",\"_id\":\"592e73058e0fb8f9a53c2c48\"},{\"imgs\":[],\"_id\":\"592e75e1ac002ffb74d95712\",\"username\":\"谢生\",\"result\":\"呵呵哒\",\"status\":2,\"user\":{\"_id\":\"5900b2cbdc3bfb20933191c7\",\"name\":\"谢生\"}}],\"imgs\":[],\"__v\":0,\"isMy\":true,\"unhandlers\":[{\"_id\":\"592306222ec3727cb2607351\",\"name\":\"谢小龙\"}],\"status\":0}})"
+*************** response log end ***************
+
+[2017-05-31 15:51:04.037] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /gzjh?tab=plan
+request client ip:  ::1
+request query:  {"tab":"plan"}
+response time: 14
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-work_plan.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:51:04.161] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/plan/list?type=my&offset=0&pageSize=10&callback=reqwest_1496217064133
+request client ip:  ::1
+request query:  {"type":"my","offset":"0","pageSize":"10","callback":"reqwest_1496217064133"}
+response time: 3
+response status: 200
+response body: 
+"reqwest_1496217064133({\"code\":0,\"message\":\"success\",\"data\":{\"total\":1,\"data\":[{\"_id\":\"5925a7ff938102d6e971c1da\",\"title\":\"第一个计划\",\"content\":\"积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服积分卡是高考放假啊是国防科技啊颂古非今啊颂古非今撒个房间卡很舒服\",\"startDate\":\"2017-06-01\",\"endDate\":\"2017-07-01\",\"receiverType\":3,\"receiver\":null,\"publisher\":{\"_id\":\"5900b2cbdc3bfb20933191c7\",\"name\":\"谢生\",\"gender\":\"male\",\"age\":23,\"phone\":\"12345678910\",\"address\":\"河源是和平县\",\"idNumber\":\"2412525252521\"},\"timestamp\":1496217057655,\"date\":\"2017-05-31\",\"handlers\":[{\"imgs\":[],\"user\":\"592306822ec3727cb2607352\",\"status\":2,\"result\":\"你妹\",\"username\":\"孟小姐\",\"_id\":\"592e73058e0fb8f9a53c2c48\"},{\"imgs\":[],\"_id\":\"592e75e1ac002ffb74d95712\",\"username\":\"谢生\",\"result\":\"呵呵哒\",\"status\":2,\"user\":\"5900b2cbdc3bfb20933191c7\"}],\"imgs\":[],\"__v\":0}]}})"
+*************** response log end ***************
+
+[2017-05-31 15:51:04.836] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /gzjh?tab=disaster
+request client ip:  ::1
+request query:  {"tab":"disaster"}
+response time: 29
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-work_plan.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:51:04.946] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/disaster/list?type=relative&offset=0&pageSize=10&callback=reqwest_1496217064922
+request client ip:  ::1
+request query:  {"type":"relative","offset":"0","pageSize":"10","callback":"reqwest_1496217064922"}
+response time: 8
+response status: 200
+response body: 
+"reqwest_1496217064922({\"code\":0,\"message\":\"success\",\"data\":{\"total\":0,\"data\":[]}})"
+*************** response log end ***************
+
+[2017-05-31 15:51:05.589] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /gzjh?tab=question
+request client ip:  ::1
+request query:  {"tab":"question"}
+response time: 22
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-work_plan.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:51:05.696] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/question/list?type=relative&offset=0&pageSize=10&callback=reqwest_1496217065677
+request client ip:  ::1
+request query:  {"type":"relative","offset":"0","pageSize":"10","callback":"reqwest_1496217065677"}
+response time: 4
+response status: 200
+response body: 
+"reqwest_1496217065677({\"code\":0,\"message\":\"success\",\"data\":{\"total\":0,\"data\":[]}})"
+*************** response log end ***************
+
+[2017-05-31 15:51:06.892] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /gzjh?tab=consult
+request client ip:  ::1
+request query:  {"tab":"consult"}
+response time: 12
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-work_plan.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:51:06.998] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/consult/list?type=relative&offset=0&pageSize=10&callback=reqwest_1496217066980
+request client ip:  ::1
+request query:  {"type":"relative","offset":"0","pageSize":"10","callback":"reqwest_1496217066980"}
+response time: 4
+response status: 200
+response body: 
+"reqwest_1496217066980({\"code\":0,\"message\":\"success\",\"data\":{\"total\":0,\"data\":[]}})"
+*************** response log end ***************
+
+[2017-05-31 15:51:07.526] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /ydbg
+request client ip:  ::1
+request query:  {}
+response time: 11
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-mobile_office.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:51:07.633] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/news/get?callback=reqwest_1496217067615
+request client ip:  ::1
+request query:  {"callback":"reqwest_1496217067615"}
+response time: 10
+response status: 200
+response body: 
+"reqwest_1496217067615({\"code\":0,\"message\":\"success\",\"data\":{\"data\":{\"plans\":[],\"notices\":[],\"questions\":[],\"consults\":[],\"disasters\":[]}}})"
+*************** response log end ***************
+
+[2017-05-31 15:51:08.626] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /txl?tab=governor
+request client ip:  ::1
+request query:  {"tab":"governor"}
+response time: 10
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-contact_book.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:51:08.746] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/department/all?callback=reqwest_1496217068721
+request client ip:  ::1
+request query:  {"callback":"reqwest_1496217068721"}
+response time: 4
+response status: 200
+response body: 
+"reqwest_1496217068721({\"code\":0,\"message\":\"success\",\"data\":{\"data\":[{\"_id\":\"584faca4b9511e3d94df6c96\",\"name\":\"农技部门\",\"desc\":\"农技部门是一个很屌的部门\",\"office\":\"a206\",\"incharges\":[{\"_id\":\"584ffed0e120343dd39d600f\",\"position\":\"种植专家\",\"phone\":\"13680654432\",\"spell\":\"xiexiaolong\",\"name\":\"谢小龙\"}]},{\"_id\":\"584ffa91e120343dd39d6005\",\"name\":\"民政部门\",\"desc\":\"民政部门很屌很屌\",\"office\":\"203\",\"incharges\":[{\"name\":\"谢小\",\"spell\":\"xiexiao\",\"phone\":\"131412421\",\"_id\":\"584ffa91e120343dd39d6006\"}]},{\"_id\":\"584fffa2e120343dd39d6010\",\"name\":\"科技部门\",\"desc\":\"科技部门调调的点点滴滴\",\"incharges\":[{\"_id\":\"584fffb2e120343dd39d6012\",\"position\":\"酱油\",\"phone\":\"13580654444\",\"spell\":\"xiexiaolong\",\"name\":\"谢晓龙\"}],\"office\":\"206\"},{\"_id\":\"5857d37ac16412478ee55baf\",\"name\":\"科学部门\",\"desc\":\"科学部门调\",\"office\":\"201\",\"incharges\":[{\"name\":\"谢军令\",\"spell\":\"xiejunling\",\"phone\":\"13580514437\",\"position\":\"经理\",\"_id\":\"5857d37ac16412478ee55bb0\"}]}]}})"
+*************** response log end ***************
+
+[2017-05-31 15:51:08.747] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/list?levelGt=3&offset=0&pageSize=10&callback=reqwest_1496217068721
+request client ip:  ::1
+request query:  {"levelGt":"3","offset":"0","pageSize":"10","callback":"reqwest_1496217068721"}
+response time: 5
+response status: 200
+response body: 
+"reqwest_1496217068721({\"code\":0,\"message\":\"success\",\"data\":{\"data\":[{\"_id\":\"5900b2cbdc3bfb20933191c7\",\"name\":\"谢生\",\"gender\":\"male\",\"age\":23,\"phone\":\"12345678910\",\"address\":\"河源是和平县\",\"birthplace\":\"广东\",\"idNumber\":\"2412525252521\",\"level\":4,\"position\":\"部长\",\"realnameStatus\":2,\"realnameResult\":\"已认证\",\"department\":{\"_id\":\"5857d37ac16412478ee55baf\",\"name\":\"科学部门\"},\"account\":\"12345678910\",\"password\":\"fe36993370c34329fd223eb620f56baa\",\"__v\":0},{\"_id\":\"592306222ec3727cb2607351\",\"name\":\"谢小龙\",\"gender\":\"male\",\"age\":23,\"phone\":\"17091614955\",\"address\":\"杭州\",\"birthplace\":\"广东\",\"idNumber\":\"1313131313414\",\"level\":3,\"position\":\"职员\",\"realnameStatus\":2,\"realnameResult\":\"已认证\",\"department\":{\"_id\":\"584faca4b9511e3d94df6c96\",\"name\":\"农技部门\"},\"account\":\"17091614955\",\"password\":\"e10adc3949ba59abbe56e057f20f883e\",\"__v\":0},{\"_id\":\"592306822ec3727cb2607352\",\"name\":\"孟小姐\",\"gender\":\"female\",\"age\":24,\"phone\":\"12345678911\",\"address\":\"杭州\",\"birthplace\":\"新疆\",\"idNumber\":\"124242142412421\",\"level\":5,\"position\":\"镇长\",\"realnameStatus\":2,\"realnameResult\":\"已认证\",\"department\":{\"_id\":\"5857d37ac16412478ee55baf\",\"name\":\"科学部门\"},\"account\":\"12345678911\",\"password\":\"e10adc3949ba59abbe56e057f20f883e\",\"__v\":0}]}})"
+*************** response log end ***************
+
+[2017-05-31 15:51:08.839] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/list?levelGt=3&offset=10&pageSize=10&callback=reqwest_1496217068721
+request client ip:  ::1
+request query:  {"levelGt":"3","offset":"10","pageSize":"10","callback":"reqwest_1496217068721"}
+response time: 1
+response status: 200
+response body: 
+"reqwest_1496217068721({\"code\":0,\"message\":\"success\",\"data\":{\"data\":[]}})"
+*************** response log end ***************
+
+[2017-05-31 15:51:09.824] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/list?levelGt=3&offset=0&pageSize=10&department=584faca4b9511e3d94df6c96&callback=reqwest_1496217068721
+request client ip:  ::1
+request query:  {"levelGt":"3","offset":"0","pageSize":"10","department":"584faca4b9511e3d94df6c96","callback":"reqwest_1496217068721"}
+response time: 4
+response status: 200
+response body: 
+"reqwest_1496217068721({\"code\":0,\"message\":\"success\",\"data\":{\"data\":[{\"_id\":\"592306222ec3727cb2607351\",\"name\":\"谢小龙\",\"gender\":\"male\",\"age\":23,\"phone\":\"17091614955\",\"address\":\"杭州\",\"birthplace\":\"广东\",\"idNumber\":\"1313131313414\",\"level\":3,\"position\":\"职员\",\"realnameStatus\":2,\"realnameResult\":\"已认证\",\"department\":{\"_id\":\"584faca4b9511e3d94df6c96\",\"name\":\"农技部门\"},\"account\":\"17091614955\",\"password\":\"e10adc3949ba59abbe56e057f20f883e\",\"__v\":0}]}})"
+*************** response log end ***************
+
+[2017-05-31 15:51:10.406] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /txl?tab=townsmen
+request client ip:  ::1
+request query:  {"tab":"townsmen"}
+response time: 11
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-contact_book.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:51:10.525] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/list?offset=0&pageSize=10&level=2&callback=reqwest_1496217070503
+request client ip:  ::1
+request query:  {"offset":"0","pageSize":"10","level":"2","callback":"reqwest_1496217070503"}
+response time: 2
+response status: 200
+response body: 
+"reqwest_1496217070503({\"code\":0,\"message\":\"success\",\"data\":{\"data\":[{\"_id\":\"59006034310a5bf0bb779d65\",\"name\":\"孟子瑞\",\"gender\":\"female\",\"age\":23,\"phone\":\"13632456881\",\"address\":\"杭州市余杭区\",\"birthplace\":\"新疆\",\"company\":\"腾讯公司\",\"idNumber\":\"114214214214214\",\"level\":2,\"realnameStatus\":2,\"realnameResult\":\"已认证\",\"account\":\"13632456881\",\"password\":\"e10adc3949ba59abbe56e057f20f883e\",\"__v\":0}]}})"
+*************** response log end ***************
+
+[2017-05-31 15:51:10.617] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/list?offset=10&pageSize=10&level=2&callback=reqwest_1496217070503
+request client ip:  ::1
+request query:  {"offset":"10","pageSize":"10","level":"2","callback":"reqwest_1496217070503"}
+response time: 2
+response status: 200
+response body: 
+"reqwest_1496217070503({\"code\":0,\"message\":\"success\",\"data\":{\"data\":[]}})"
+*************** response log end ***************
+
+[2017-05-31 15:51:10.625] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/list?offset=20&pageSize=10&level=2&callback=reqwest_1496217070503
+request client ip:  ::1
+request query:  {"offset":"20","pageSize":"10","level":"2","callback":"reqwest_1496217070503"}
+response time: 2
+response status: 200
+response body: 
+"reqwest_1496217070503({\"code\":0,\"message\":\"success\",\"data\":{\"data\":[]}})"
+*************** response log end ***************
+
+[2017-05-31 15:51:11.266] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /ydbg
+request client ip:  ::1
+request query:  {}
+response time: 10
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-mobile_office.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:51:11.370] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/news/get?callback=reqwest_1496217071352
+request client ip:  ::1
+request query:  {"callback":"reqwest_1496217071352"}
+response time: 9
+response status: 200
+response body: 
+"reqwest_1496217071352({\"code\":0,\"message\":\"success\",\"data\":{\"data\":{\"plans\":[],\"notices\":[],\"questions\":[],\"consults\":[],\"disasters\":[]}}})"
+*************** response log end ***************
+
+[2017-05-31 15:51:12.089] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /kqqd?tab=my
+request client ip:  ::1
+request query:  {"tab":"my"}
+response time: 13
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-signin.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:51:12.204] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/record/get?date=2017-05-31&callback=reqwest_1496217072183
+request client ip:  ::1
+request query:  {"date":"2017-05-31","callback":"reqwest_1496217072183"}
+response time: 6
+response status: 200
+response body: 
+"reqwest_1496217072183({\"code\":0,\"message\":\"success\",\"data\":{\"_id\":\"592e6d00d8cf42f13bcfbf87\",\"signinTime\":\"08:00\",\"signoutTime\":\"18:00\",\"isSystem\":false,\"date\":\"2017-05-31\",\"__v\":0,\"signouters\":[],\"signiners\":[]}})"
+*************** response log end ***************
+
+[2017-05-31 15:51:14.495] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/record/signin?position=%E6%B1%9F%E8%A5%BF%E7%9C%81+%E8%B5%A3%E5%B7%9E%E5%B8%82&date=2017-05-31&callback=reqwest_1496217072183
+request client ip:  ::1
+request query:  {"position":"江西省 赣州市","date":"2017-05-31","callback":"reqwest_1496217072183"}
+response time: 5
+response status: 200
+response body: 
+"reqwest_1496217072183({\"code\":0,\"message\":\"success\",\"data\":{\"signinTime\":\"15:51:14\"}})"
+*************** response log end ***************
+
+[2017-05-31 15:51:18.628] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/record/signout?position=%E6%B5%99%E6%B1%9F%E7%9C%81+%E6%9D%AD%E5%B7%9E%E5%B8%82+%E4%BD%99%E6%9D%AD%E5%8C%BA+%E8%89%AF%E7%9D%A6%E8%B7%AF+&date=2017-05-31&callback=reqwest_1496217072183
+request client ip:  ::1
+request query:  {"position":"浙江省 杭州市 余杭区 良睦路 ","date":"2017-05-31","callback":"reqwest_1496217072183"}
+response time: 5
+response status: 200
+response body: 
+"reqwest_1496217072183({\"code\":0,\"message\":\"success\",\"data\":{\"signoutTime\":\"15:51:18\"}})"
+*************** response log end ***************
+
+[2017-05-31 15:51:20.469] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /kqqd?tab=department
+request client ip:  ::1
+request query:  {"tab":"department"}
+response time: 12
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-signin.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:51:20.593] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/record/get?date=2017-05-31&callback=reqwest_1496217080570
+request client ip:  ::1
+request query:  {"date":"2017-05-31","callback":"reqwest_1496217080570"}
+response time: 7
+response status: 200
+response body: 
+"reqwest_1496217080570({\"code\":0,\"message\":\"success\",\"data\":{\"_id\":\"592e6d00d8cf42f13bcfbf87\",\"signinTime\":\"08:00\",\"signoutTime\":\"18:00\",\"isSystem\":false,\"date\":\"2017-05-31\",\"__v\":0,\"signouters\":[{\"_id\":\"592e75f6ac002ffb74d95714\",\"time\":\"15:51:18\",\"location\":\"浙江省 杭州市 余杭区 良睦路 \",\"user\":\"5900b2cbdc3bfb20933191c7\"}],\"signiners\":[{\"_id\":\"592e75f2ac002ffb74d95713\",\"time\":\"15:51:14\",\"location\":\"江西省 赣州市\",\"user\":\"5900b2cbdc3bfb20933191c7\"}]}})"
+*************** response log end ***************
+
+[2017-05-31 15:51:20.612] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/record/list?type=department&offset=0&pageSize=10&callback=reqwest_1496217080570
+request client ip:  ::1
+request query:  {"type":"department","offset":"0","pageSize":"10","callback":"reqwest_1496217080570"}
+response time: 18
+response status: 200
+response body: 
+"reqwest_1496217080570({\"code\":0,\"message\":\"success\",\"data\":{\"data\":[{\"url\":\"/qdxq?id=5925a526f20e46d430258008&type=department\",\"date\":\"2017-05-24\",\"signinTime\":\"08:00\",\"signoutTime\":\"18:00\",\"signinCount\":1,\"unsigninCount\":1,\"signoutCount\":1,\"unsignoutCount\":1,\"totalMembers\":2},{\"url\":\"/qdxq?id=592e6d00d8cf42f13bcfbf87&type=department\",\"date\":\"2017-05-31\",\"signinTime\":\"08:00\",\"signoutTime\":\"18:00\",\"signinCount\":1,\"unsigninCount\":1,\"signoutCount\":1,\"unsignoutCount\":1,\"totalMembers\":2}],\"total\":2}})"
+*************** response log end ***************
+
+[2017-05-31 15:51:22.076] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /qdxq?id=5925a526f20e46d430258008&type=department
+request client ip:  ::1
+request query:  {"id":"5925a526f20e46d430258008","type":"department"}
+response time: 14
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-signin_detail.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:51:22.253] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/department/all?callback=reqwest_1496217082242
+request client ip:  ::1
+request query:  {"callback":"reqwest_1496217082242"}
+response time: 3
+response status: 200
+response body: 
+"reqwest_1496217082242({\"code\":0,\"message\":\"success\",\"data\":{\"data\":[{\"_id\":\"584faca4b9511e3d94df6c96\",\"name\":\"农技部门\",\"desc\":\"农技部门是一个很屌的部门\",\"office\":\"a206\",\"incharges\":[{\"_id\":\"584ffed0e120343dd39d600f\",\"position\":\"种植专家\",\"phone\":\"13680654432\",\"spell\":\"xiexiaolong\",\"name\":\"谢小龙\"}]},{\"_id\":\"584ffa91e120343dd39d6005\",\"name\":\"民政部门\",\"desc\":\"民政部门很屌很屌\",\"office\":\"203\",\"incharges\":[{\"name\":\"谢小\",\"spell\":\"xiexiao\",\"phone\":\"131412421\",\"_id\":\"584ffa91e120343dd39d6006\"}]},{\"_id\":\"584fffa2e120343dd39d6010\",\"name\":\"科技部门\",\"desc\":\"科技部门调调的点点滴滴\",\"incharges\":[{\"_id\":\"584fffb2e120343dd39d6012\",\"position\":\"酱油\",\"phone\":\"13580654444\",\"spell\":\"xiexiaolong\",\"name\":\"谢晓龙\"}],\"office\":\"206\"},{\"_id\":\"5857d37ac16412478ee55baf\",\"name\":\"科学部门\",\"desc\":\"科学部门调\",\"office\":\"201\",\"incharges\":[{\"name\":\"谢军令\",\"spell\":\"xiejunling\",\"phone\":\"13580514437\",\"position\":\"经理\",\"_id\":\"5857d37ac16412478ee55bb0\"}]}]}})"
+*************** response log end ***************
+
+[2017-05-31 15:51:22.257] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/record/detail?id=5925a526f20e46d430258008&type=department&callback=reqwest_1496217082242
+request client ip:  ::1
+request query:  {"id":"5925a526f20e46d430258008","type":"department","callback":"reqwest_1496217082242"}
+response time: 7
+response status: 200
+response body: 
+"reqwest_1496217082242({\"code\":0,\"message\":\"success\",\"data\":{\"date\":\"2017-05-24\",\"signinTime\":\"08:00\",\"signoutTime\":\"18:00\",\"department\":\"科学部门\",\"members\":[{\"_id\":\"5900b2cbdc3bfb20933191c7\",\"name\":\"谢生\",\"signinTime\":\"23:22:33\",\"signinLocation\":\"江西省 赣州市\",\"signoutTime\":\"23:22:54\",\"signoutLocation\":\"浙江省 杭州市 余杭区 藕花洲大街 \"},{\"_id\":\"592306822ec3727cb2607352\",\"name\":\"孟小姐\"}]}})"
+*************** response log end ***************
+
+[2017-05-31 15:51:25.642] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /kqqd?tab=department
+request client ip:  ::1
+request query:  {"tab":"department"}
+response time: 10
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-signin.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:51:25.745] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/record/get?date=2017-05-31&callback=reqwest_1496217085726
+request client ip:  ::1
+request query:  {"date":"2017-05-31","callback":"reqwest_1496217085726"}
+response time: 4
+response status: 200
+response body: 
+"reqwest_1496217085726({\"code\":0,\"message\":\"success\",\"data\":{\"_id\":\"592e6d00d8cf42f13bcfbf87\",\"signinTime\":\"08:00\",\"signoutTime\":\"18:00\",\"isSystem\":false,\"date\":\"2017-05-31\",\"__v\":0,\"signouters\":[{\"_id\":\"592e75f6ac002ffb74d95714\",\"time\":\"15:51:18\",\"location\":\"浙江省 杭州市 余杭区 良睦路 \",\"user\":\"5900b2cbdc3bfb20933191c7\"}],\"signiners\":[{\"_id\":\"592e75f2ac002ffb74d95713\",\"time\":\"15:51:14\",\"location\":\"江西省 赣州市\",\"user\":\"5900b2cbdc3bfb20933191c7\"}]}})"
+*************** response log end ***************
+
+[2017-05-31 15:51:25.755] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/record/list?type=department&offset=0&pageSize=10&callback=reqwest_1496217085726
+request client ip:  ::1
+request query:  {"type":"department","offset":"0","pageSize":"10","callback":"reqwest_1496217085726"}
+response time: 8
+response status: 200
+response body: 
+"reqwest_1496217085726({\"code\":0,\"message\":\"success\",\"data\":{\"data\":[{\"url\":\"/qdxq?id=5925a526f20e46d430258008&type=department\",\"date\":\"2017-05-24\",\"signinTime\":\"08:00\",\"signoutTime\":\"18:00\",\"signinCount\":1,\"unsigninCount\":1,\"signoutCount\":1,\"unsignoutCount\":1,\"totalMembers\":2},{\"url\":\"/qdxq?id=592e6d00d8cf42f13bcfbf87&type=department\",\"date\":\"2017-05-31\",\"signinTime\":\"08:00\",\"signoutTime\":\"18:00\",\"signinCount\":1,\"unsigninCount\":1,\"signoutCount\":1,\"unsignoutCount\":1,\"totalMembers\":2}],\"total\":2}})"
+*************** response log end ***************
+
+[2017-05-31 15:51:26.471] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /kqqd?tab=all
+request client ip:  ::1
+request query:  {"tab":"all"}
+response time: 9
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-signin.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:51:27.480] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/record/get?date=2017-05-31&callback=reqwest_1496217087461
+request client ip:  ::1
+request query:  {"date":"2017-05-31","callback":"reqwest_1496217087461"}
+response time: 3
+response status: 200
+response body: 
+"reqwest_1496217087461({\"code\":0,\"message\":\"success\",\"data\":{\"_id\":\"592e6d00d8cf42f13bcfbf87\",\"signinTime\":\"08:00\",\"signoutTime\":\"18:00\",\"isSystem\":false,\"date\":\"2017-05-31\",\"__v\":0,\"signouters\":[{\"_id\":\"592e75f6ac002ffb74d95714\",\"time\":\"15:51:18\",\"location\":\"浙江省 杭州市 余杭区 良睦路 \",\"user\":\"5900b2cbdc3bfb20933191c7\"}],\"signiners\":[{\"_id\":\"592e75f2ac002ffb74d95713\",\"time\":\"15:51:14\",\"location\":\"江西省 赣州市\",\"user\":\"5900b2cbdc3bfb20933191c7\"}]}})"
+*************** response log end ***************
+
+[2017-05-31 15:51:32.793] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /kqqd?tab=department
+request client ip:  ::1
+request query:  {"tab":"department"}
+response time: 11
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-signin.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:51:32.903] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/record/get?date=2017-05-31&callback=reqwest_1496217092885
+request client ip:  ::1
+request query:  {"date":"2017-05-31","callback":"reqwest_1496217092885"}
+response time: 3
+response status: 200
+response body: 
+"reqwest_1496217092885({\"code\":0,\"message\":\"success\",\"data\":{\"_id\":\"592e6d00d8cf42f13bcfbf87\",\"signinTime\":\"08:00\",\"signoutTime\":\"18:00\",\"isSystem\":false,\"date\":\"2017-05-31\",\"__v\":0,\"signouters\":[{\"_id\":\"592e75f6ac002ffb74d95714\",\"time\":\"15:51:18\",\"location\":\"浙江省 杭州市 余杭区 良睦路 \",\"user\":\"5900b2cbdc3bfb20933191c7\"}],\"signiners\":[{\"_id\":\"592e75f2ac002ffb74d95713\",\"time\":\"15:51:14\",\"location\":\"江西省 赣州市\",\"user\":\"5900b2cbdc3bfb20933191c7\"}]}})"
+*************** response log end ***************
+
+[2017-05-31 15:51:32.917] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/record/list?type=department&offset=0&pageSize=10&callback=reqwest_1496217092885
+request client ip:  ::1
+request query:  {"type":"department","offset":"0","pageSize":"10","callback":"reqwest_1496217092885"}
+response time: 9
+response status: 200
+response body: 
+"reqwest_1496217092885({\"code\":0,\"message\":\"success\",\"data\":{\"data\":[{\"url\":\"/qdxq?id=5925a526f20e46d430258008&type=department\",\"date\":\"2017-05-24\",\"signinTime\":\"08:00\",\"signoutTime\":\"18:00\",\"signinCount\":1,\"unsigninCount\":1,\"signoutCount\":1,\"unsignoutCount\":1,\"totalMembers\":2},{\"url\":\"/qdxq?id=592e6d00d8cf42f13bcfbf87&type=department\",\"date\":\"2017-05-31\",\"signinTime\":\"08:00\",\"signoutTime\":\"18:00\",\"signinCount\":1,\"unsigninCount\":1,\"signoutCount\":1,\"unsignoutCount\":1,\"totalMembers\":2}],\"total\":2}})"
+*************** response log end ***************
+
+[2017-05-31 15:51:33.544] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /kqqd?tab=my
+request client ip:  ::1
+request query:  {"tab":"my"}
+response time: 10
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-signin.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:51:34.127] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/record/get?date=2017-05-31&callback=reqwest_1496217094108
+request client ip:  ::1
+request query:  {"date":"2017-05-31","callback":"reqwest_1496217094108"}
+response time: 5
+response status: 200
+response body: 
+"reqwest_1496217094108({\"code\":0,\"message\":\"success\",\"data\":{\"_id\":\"592e6d00d8cf42f13bcfbf87\",\"signinTime\":\"08:00\",\"signoutTime\":\"18:00\",\"isSystem\":false,\"date\":\"2017-05-31\",\"__v\":0,\"signouters\":[{\"_id\":\"592e75f6ac002ffb74d95714\",\"time\":\"15:51:18\",\"location\":\"浙江省 杭州市 余杭区 良睦路 \",\"user\":\"5900b2cbdc3bfb20933191c7\"}],\"signiners\":[{\"_id\":\"592e75f2ac002ffb74d95713\",\"time\":\"15:51:14\",\"location\":\"江西省 赣州市\",\"user\":\"5900b2cbdc3bfb20933191c7\"}]}})"
+*************** response log end ***************
+
+[2017-05-31 15:51:34.327] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /ydbg
+request client ip:  ::1
+request query:  {}
+response time: 11
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-mobile_office.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:51:35.320] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/news/get?callback=reqwest_1496217095300
+request client ip:  ::1
+request query:  {"callback":"reqwest_1496217095300"}
+response time: 11
+response status: 200
+response body: 
+"reqwest_1496217095300({\"code\":0,\"message\":\"success\",\"data\":{\"data\":{\"plans\":[],\"notices\":[],\"questions\":[],\"consults\":[],\"disasters\":[]}}})"
+*************** response log end ***************
+
+[2017-05-31 15:51:38.378] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /kqqd?tab=my
+request client ip:  ::1
+request query:  {"tab":"my"}
+response time: 12
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-signin.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:51:38.480] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/record/get?date=2017-05-31&callback=reqwest_1496217098462
+request client ip:  ::1
+request query:  {"date":"2017-05-31","callback":"reqwest_1496217098462"}
+response time: 4
+response status: 200
+response body: 
+"reqwest_1496217098462({\"code\":0,\"message\":\"success\",\"data\":{\"_id\":\"592e6d00d8cf42f13bcfbf87\",\"signinTime\":\"08:00\",\"signoutTime\":\"18:00\",\"isSystem\":false,\"date\":\"2017-05-31\",\"__v\":0,\"signouters\":[{\"_id\":\"592e75f6ac002ffb74d95714\",\"time\":\"15:51:18\",\"location\":\"浙江省 杭州市 余杭区 良睦路 \",\"user\":\"5900b2cbdc3bfb20933191c7\"}],\"signiners\":[{\"_id\":\"592e75f2ac002ffb74d95713\",\"time\":\"15:51:14\",\"location\":\"江西省 赣州市\",\"user\":\"5900b2cbdc3bfb20933191c7\"}]}})"
+*************** response log end ***************
+
+[2017-05-31 15:51:39.379] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /ydbg
+request client ip:  ::1
+request query:  {}
+response time: 19
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-mobile_office.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:51:40.203] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/news/get?callback=reqwest_1496217100184
+request client ip:  ::1
+request query:  {"callback":"reqwest_1496217100184"}
+response time: 10
+response status: 200
+response body: 
+"reqwest_1496217100184({\"code\":0,\"message\":\"success\",\"data\":{\"data\":{\"plans\":[],\"notices\":[],\"questions\":[],\"consults\":[],\"disasters\":[]}}})"
+*************** response log end ***************
+
+[2017-05-31 15:51:42.113] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 11
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>于都县岭背镇人民政府</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><link rel=\"stylesheet\" href=\"/stylesheets/front/style.min.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"loading\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div id=\"loading_txt\" class=\"text\">加载中</div></div></div><div id=\"page_holder\"><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div><script src=\"/javascripts/front-home_page.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:51:42.216] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/page/get?name=home&callback=reqwest_1496217102200
+request client ip:  ::1
+request query:  {"name":"home","callback":"reqwest_1496217102200"}
+response time: 2
+response status: 200
+response body: 
+"reqwest_1496217102200({\"code\":0,\"message\":\"success\",\"data\":{\"_id\":\"5857fdfe1247be4c153dc39e\",\"name\":\"home\",\"text\":\"网站首页\",\"url\":\"/\",\"desc\":\"江西赣州人民政府，是全心全意为人民服务的政府,\",\"tabs\":[],\"banners\":[{\"_id\":\"5857feaf3c5a3a4c1de60ba5\",\"url\":\"www.baidu.com\",\"img\":\"https://img.alicdn.com/tfscom/TB1VkY0OFXXXXXJaFXXSutbFXXX.jpg\"},{\"_id\":\"5857feaf3c5a3a4c1de60ba4\",\"url\":\"www.tm.com\",\"img\":\"http://img.alicdn.com/tfscom/TB1C8EGOpXXXXX0XVXXSutbFXXX.jpg\"}],\"__v\":0}})"
+*************** response log end ***************
+
+[2017-05-31 15:51:42.327] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/article/feeds?tab=%7B%7D&page=%7B%22name%22%3A%22home%22%2C%22text%22%3A%22%E7%BD%91%E7%AB%99%E9%A6%96%E9%A1%B5%22%7D&offset=0&pageSize=10&callback=reqwest_1496217102200
+request client ip:  ::1
+request query:  {"tab":"{}","page":"{\"name\":\"home\",\"text\":\"网站首页\"}","offset":"0","pageSize":"10","callback":"reqwest_1496217102200"}
+response time: 6
+response status: 200
+response body: 
+"reqwest_1496217102200({\"code\":0,\"message\":\"success\",\"data\":{\"total\":3,\"data\":[{\"_id\":\"590157f14e32710c4ff35807\",\"title\":\"大大\",\"cover\":\"\",\"desc\":\"发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布\",\"date\":\"2017-04-27\",\"url\":\"http://localhost/wzxq?id=590157f14e32710c4ff35807\"},{\"_id\":\"5901565e4e32710c4ff35806\",\"title\":\"首页测试文章1\",\"cover\":\"\",\"desc\":\"发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布\",\"date\":\"2017-04-27\",\"url\":\"http://localhost/wzxq?id=5901565e4e32710c4ff35806\"},{\"_id\":\"5901561b4e32710c4ff35805\",\"title\":\"首页测试文章2\",\"cover\":\"\",\"desc\":\"发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布卡就国防科技啊是国防发布\",\"date\":\"2017-04-27\",\"url\":\"http://localhost/wzxq?id=5901561b4e32710c4ff35805\"}]}})"
+*************** response log end ***************
+
+[2017-05-31 15:52:00.066] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /admin/yhgl
+request client ip:  ::1
+request query:  {}
+response time: 362
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><meta charset=\"UTF-8\"><title>智慧乡村后台管理系统</title><link rel=\"stylesheet\" href=\"/stylesheets/admin/style.min.css\"><link rel=\"stylesheet\" href=\"/stylesheets/reset.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"page-wrap\"><input id=\"J_page_name\" type=\"hidden\" value=\"yhgl\"><div class=\"header\"><span class=\"title\">于都县岭背镇人民政府管理平台</span></div><div class=\"navs\"><div class=\"groups\"><div class=\"title\">系统设置</div><div class=\"links\"><a id=\"yhgl\" href=\"/admin/yhgl\">用户管理</a><a id=\"bmgl\" href=\"/admin/bmgl\">部门管理</a><a id=\"bmgl\" href=\"/admin/kqgl\">考勤管理</a><a id=\"smsh\" href=\"/admin/smsh\">实名审核</a></div></div><div class=\"groups\"><div class=\"title\">页面管理</div><div class=\"links\"><a id=\"bjwz\" href=\"/admin/bjwz\">新增文章</a><a id=\"home\" href=\"/admin/home\">网站首页</a><a id=\"home\" href=\"/admin/xxzx\">乡贤在线</a><a id=\"jzfp\" href=\"/admin/jzfp\">精准扶贫</a><a id=\"ddjs\" href=\"/admin/ddjs\">党的建设</a><a id=\"wybs\" href=\"/admin/wybs\">我要办事</a><a id=\"zxxf\" href=\"/admin/zxxf\">在线信访</a><a id=\"kjzf\" href=\"/admin/kjzf\">科技致富</a><a id=\"msdy\" href=\"/admin/msdy\">民生答疑</a><a id=\"njzx\" href=\"/admin/njzx\">农技在线</a></div></div><div class=\"groups\"><div class=\"title\">资源空间</div><div class=\"links\"><a id=\"tpgl\" href=\"/admin/tpgl\">图片管理</a><a id=\"spgl\" href=\"/admin/spgl\">视频管理</a><a id=\"ypgl\" href=\"/admin/ypgl\">音频管理</a><a id=\"wdgl\" href=\"/admin/wdgl\">文档管理</a></div></div></div><div class=\"content\"><div class=\"top-title\">用户管理</div><div id=\"content_holder\"><div class=\"expecting\">功能暂未上线，敬请期待！</div><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div></div><div class=\"footer\"></div><script src=\"/javascripts/admin-user_manage.js\"></script></div><script src=\"/javascripts/admin.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:52:00.261] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/department/all?callback=reqwest_1496217120239
+request client ip:  ::1
+request query:  {"callback":"reqwest_1496217120239"}
+response time: 15
+response status: 200
+response body: 
+"reqwest_1496217120239({\"code\":0,\"message\":\"success\",\"data\":{\"data\":[{\"_id\":\"584faca4b9511e3d94df6c96\",\"name\":\"农技部门\",\"desc\":\"农技部门是一个很屌的部门\",\"office\":\"a206\",\"incharges\":[{\"_id\":\"584ffed0e120343dd39d600f\",\"position\":\"种植专家\",\"phone\":\"13680654432\",\"spell\":\"xiexiaolong\",\"name\":\"谢小龙\"}]},{\"_id\":\"584ffa91e120343dd39d6005\",\"name\":\"民政部门\",\"desc\":\"民政部门很屌很屌\",\"office\":\"203\",\"incharges\":[{\"name\":\"谢小\",\"spell\":\"xiexiao\",\"phone\":\"131412421\",\"_id\":\"584ffa91e120343dd39d6006\"}]},{\"_id\":\"584fffa2e120343dd39d6010\",\"name\":\"科技部门\",\"desc\":\"科技部门调调的点点滴滴\",\"incharges\":[{\"_id\":\"584fffb2e120343dd39d6012\",\"position\":\"酱油\",\"phone\":\"13580654444\",\"spell\":\"xiexiaolong\",\"name\":\"谢晓龙\"}],\"office\":\"206\"},{\"_id\":\"5857d37ac16412478ee55baf\",\"name\":\"科学部门\",\"desc\":\"科学部门调\",\"office\":\"201\",\"incharges\":[{\"name\":\"谢军令\",\"spell\":\"xiejunling\",\"phone\":\"13580514437\",\"position\":\"经理\",\"_id\":\"5857d37ac16412478ee55bb0\"}]}]}})"
+*************** response log end ***************
+
+[2017-05-31 15:52:00.265] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/list?offset=0&pageSize=10&levelGt=3&callback=reqwest_1496217120239
+request client ip:  ::1
+request query:  {"offset":"0","pageSize":"10","levelGt":"3","callback":"reqwest_1496217120239"}
+response time: 19
+response status: 200
+response body: 
+"reqwest_1496217120239({\"code\":0,\"message\":\"success\",\"data\":{\"data\":[{\"_id\":\"5900b2cbdc3bfb20933191c7\",\"name\":\"谢生\",\"gender\":\"male\",\"age\":23,\"phone\":\"12345678910\",\"address\":\"河源是和平县\",\"birthplace\":\"广东\",\"idNumber\":\"2412525252521\",\"level\":4,\"position\":\"部长\",\"realnameStatus\":2,\"realnameResult\":\"已认证\",\"department\":{\"_id\":\"5857d37ac16412478ee55baf\",\"name\":\"科学部门\"},\"account\":\"12345678910\",\"password\":\"fe36993370c34329fd223eb620f56baa\",\"__v\":0},{\"_id\":\"592306222ec3727cb2607351\",\"name\":\"谢小龙\",\"gender\":\"male\",\"age\":23,\"phone\":\"17091614955\",\"address\":\"杭州\",\"birthplace\":\"广东\",\"idNumber\":\"1313131313414\",\"level\":3,\"position\":\"职员\",\"realnameStatus\":2,\"realnameResult\":\"已认证\",\"department\":{\"_id\":\"584faca4b9511e3d94df6c96\",\"name\":\"农技部门\"},\"account\":\"17091614955\",\"password\":\"e10adc3949ba59abbe56e057f20f883e\",\"__v\":0},{\"_id\":\"592306822ec3727cb2607352\",\"name\":\"孟小姐\",\"gender\":\"female\",\"age\":24,\"phone\":\"12345678911\",\"address\":\"杭州\",\"birthplace\":\"新疆\",\"idNumber\":\"124242142412421\",\"level\":5,\"position\":\"镇长\",\"realnameStatus\":2,\"realnameResult\":\"已认证\",\"department\":{\"_id\":\"5857d37ac16412478ee55baf\",\"name\":\"科学部门\"},\"account\":\"12345678911\",\"password\":\"e10adc3949ba59abbe56e057f20f883e\",\"__v\":0}]}})"
+*************** response log end ***************
+
+[2017-05-31 15:52:02.370] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /admin/bmgl
+request client ip:  ::1
+request query:  {}
+response time: 74
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><meta charset=\"UTF-8\"><title>智慧乡村后台管理系统</title><link rel=\"stylesheet\" href=\"/stylesheets/admin/style.min.css\"><link rel=\"stylesheet\" href=\"/stylesheets/reset.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"page-wrap\"><input id=\"J_page_name\" type=\"hidden\" value=\"bmgl\"><div class=\"header\"><span class=\"title\">于都县岭背镇人民政府管理平台</span></div><div class=\"navs\"><div class=\"groups\"><div class=\"title\">系统设置</div><div class=\"links\"><a id=\"yhgl\" href=\"/admin/yhgl\">用户管理</a><a id=\"bmgl\" href=\"/admin/bmgl\">部门管理</a><a id=\"bmgl\" href=\"/admin/kqgl\">考勤管理</a><a id=\"smsh\" href=\"/admin/smsh\">实名审核</a></div></div><div class=\"groups\"><div class=\"title\">页面管理</div><div class=\"links\"><a id=\"bjwz\" href=\"/admin/bjwz\">新增文章</a><a id=\"home\" href=\"/admin/home\">网站首页</a><a id=\"home\" href=\"/admin/xxzx\">乡贤在线</a><a id=\"jzfp\" href=\"/admin/jzfp\">精准扶贫</a><a id=\"ddjs\" href=\"/admin/ddjs\">党的建设</a><a id=\"wybs\" href=\"/admin/wybs\">我要办事</a><a id=\"zxxf\" href=\"/admin/zxxf\">在线信访</a><a id=\"kjzf\" href=\"/admin/kjzf\">科技致富</a><a id=\"msdy\" href=\"/admin/msdy\">民生答疑</a><a id=\"njzx\" href=\"/admin/njzx\">农技在线</a></div></div><div class=\"groups\"><div class=\"title\">资源空间</div><div class=\"links\"><a id=\"tpgl\" href=\"/admin/tpgl\">图片管理</a><a id=\"spgl\" href=\"/admin/spgl\">视频管理</a><a id=\"ypgl\" href=\"/admin/ypgl\">音频管理</a><a id=\"wdgl\" href=\"/admin/wdgl\">文档管理</a></div></div></div><div class=\"content\"><div class=\"top-title\">部门管理</div><div id=\"content_holder\"><div class=\"expecting\">功能暂未上线，敬请期待！</div><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div></div><div class=\"footer\"></div><script src=\"/javascripts/admin-department_manage.js\"></script></div><script src=\"/javascripts/admin.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:52:02.527] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/department/all?callback=reqwest_1496217122518
+request client ip:  ::1
+request query:  {"callback":"reqwest_1496217122518"}
+response time: 3
+response status: 200
+response body: 
+"reqwest_1496217122518({\"code\":0,\"message\":\"success\",\"data\":{\"data\":[{\"_id\":\"584faca4b9511e3d94df6c96\",\"name\":\"农技部门\",\"desc\":\"农技部门是一个很屌的部门\",\"office\":\"a206\",\"incharges\":[{\"_id\":\"584ffed0e120343dd39d600f\",\"position\":\"种植专家\",\"phone\":\"13680654432\",\"spell\":\"xiexiaolong\",\"name\":\"谢小龙\"}]},{\"_id\":\"584ffa91e120343dd39d6005\",\"name\":\"民政部门\",\"desc\":\"民政部门很屌很屌\",\"office\":\"203\",\"incharges\":[{\"name\":\"谢小\",\"spell\":\"xiexiao\",\"phone\":\"131412421\",\"_id\":\"584ffa91e120343dd39d6006\"}]},{\"_id\":\"584fffa2e120343dd39d6010\",\"name\":\"科技部门\",\"desc\":\"科技部门调调的点点滴滴\",\"incharges\":[{\"_id\":\"584fffb2e120343dd39d6012\",\"position\":\"酱油\",\"phone\":\"13580654444\",\"spell\":\"xiexiaolong\",\"name\":\"谢晓龙\"}],\"office\":\"206\"},{\"_id\":\"5857d37ac16412478ee55baf\",\"name\":\"科学部门\",\"desc\":\"科学部门调\",\"office\":\"201\",\"incharges\":[{\"name\":\"谢军令\",\"spell\":\"xiejunling\",\"phone\":\"13580514437\",\"position\":\"经理\",\"_id\":\"5857d37ac16412478ee55bb0\"}]}]}})"
+*************** response log end ***************
+
+[2017-05-31 15:52:03.067] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /admin/kqgl
+request client ip:  ::1
+request query:  {}
+response time: 71
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><meta charset=\"UTF-8\"><title>智慧乡村后台管理系统</title><link rel=\"stylesheet\" href=\"/stylesheets/admin/style.min.css\"><link rel=\"stylesheet\" href=\"/stylesheets/reset.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"page-wrap\"><input id=\"J_page_name\" type=\"hidden\" value=\"kqgl\"><div class=\"header\"><span class=\"title\">于都县岭背镇人民政府管理平台</span></div><div class=\"navs\"><div class=\"groups\"><div class=\"title\">系统设置</div><div class=\"links\"><a id=\"yhgl\" href=\"/admin/yhgl\">用户管理</a><a id=\"bmgl\" href=\"/admin/bmgl\">部门管理</a><a id=\"bmgl\" href=\"/admin/kqgl\">考勤管理</a><a id=\"smsh\" href=\"/admin/smsh\">实名审核</a></div></div><div class=\"groups\"><div class=\"title\">页面管理</div><div class=\"links\"><a id=\"bjwz\" href=\"/admin/bjwz\">新增文章</a><a id=\"home\" href=\"/admin/home\">网站首页</a><a id=\"home\" href=\"/admin/xxzx\">乡贤在线</a><a id=\"jzfp\" href=\"/admin/jzfp\">精准扶贫</a><a id=\"ddjs\" href=\"/admin/ddjs\">党的建设</a><a id=\"wybs\" href=\"/admin/wybs\">我要办事</a><a id=\"zxxf\" href=\"/admin/zxxf\">在线信访</a><a id=\"kjzf\" href=\"/admin/kjzf\">科技致富</a><a id=\"msdy\" href=\"/admin/msdy\">民生答疑</a><a id=\"njzx\" href=\"/admin/njzx\">农技在线</a></div></div><div class=\"groups\"><div class=\"title\">资源空间</div><div class=\"links\"><a id=\"tpgl\" href=\"/admin/tpgl\">图片管理</a><a id=\"spgl\" href=\"/admin/spgl\">视频管理</a><a id=\"ypgl\" href=\"/admin/ypgl\">音频管理</a><a id=\"wdgl\" href=\"/admin/wdgl\">文档管理</a></div></div></div><div class=\"content\"><div class=\"top-title\">考勤管理</div><div id=\"content_holder\"><div class=\"expecting\">功能暂未上线，敬请期待！</div><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div></div><div class=\"footer\"></div><script src=\"/javascripts/admin-signin_manage.js\"></script></div><script src=\"/javascripts/admin.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:52:04.623] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /admin/bmgl
+request client ip:  ::1
+request query:  {}
+response time: 60
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><meta charset=\"UTF-8\"><title>智慧乡村后台管理系统</title><link rel=\"stylesheet\" href=\"/stylesheets/admin/style.min.css\"><link rel=\"stylesheet\" href=\"/stylesheets/reset.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"page-wrap\"><input id=\"J_page_name\" type=\"hidden\" value=\"bmgl\"><div class=\"header\"><span class=\"title\">于都县岭背镇人民政府管理平台</span></div><div class=\"navs\"><div class=\"groups\"><div class=\"title\">系统设置</div><div class=\"links\"><a id=\"yhgl\" href=\"/admin/yhgl\">用户管理</a><a id=\"bmgl\" href=\"/admin/bmgl\">部门管理</a><a id=\"bmgl\" href=\"/admin/kqgl\">考勤管理</a><a id=\"smsh\" href=\"/admin/smsh\">实名审核</a></div></div><div class=\"groups\"><div class=\"title\">页面管理</div><div class=\"links\"><a id=\"bjwz\" href=\"/admin/bjwz\">新增文章</a><a id=\"home\" href=\"/admin/home\">网站首页</a><a id=\"home\" href=\"/admin/xxzx\">乡贤在线</a><a id=\"jzfp\" href=\"/admin/jzfp\">精准扶贫</a><a id=\"ddjs\" href=\"/admin/ddjs\">党的建设</a><a id=\"wybs\" href=\"/admin/wybs\">我要办事</a><a id=\"zxxf\" href=\"/admin/zxxf\">在线信访</a><a id=\"kjzf\" href=\"/admin/kjzf\">科技致富</a><a id=\"msdy\" href=\"/admin/msdy\">民生答疑</a><a id=\"njzx\" href=\"/admin/njzx\">农技在线</a></div></div><div class=\"groups\"><div class=\"title\">资源空间</div><div class=\"links\"><a id=\"tpgl\" href=\"/admin/tpgl\">图片管理</a><a id=\"spgl\" href=\"/admin/spgl\">视频管理</a><a id=\"ypgl\" href=\"/admin/ypgl\">音频管理</a><a id=\"wdgl\" href=\"/admin/wdgl\">文档管理</a></div></div></div><div class=\"content\"><div class=\"top-title\">部门管理</div><div id=\"content_holder\"><div class=\"expecting\">功能暂未上线，敬请期待！</div><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div></div><div class=\"footer\"></div><script src=\"/javascripts/admin-department_manage.js\"></script></div><script src=\"/javascripts/admin.js\"></script></body></html>"
+*************** response log end ***************
+
+[2017-05-31 15:52:04.721] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/department/all?callback=reqwest_1496217124711
+request client ip:  ::1
+request query:  {"callback":"reqwest_1496217124711"}
+response time: 7
+response status: 200
+response body: 
+"reqwest_1496217124711({\"code\":0,\"message\":\"success\",\"data\":{\"data\":[{\"_id\":\"584faca4b9511e3d94df6c96\",\"name\":\"农技部门\",\"desc\":\"农技部门是一个很屌的部门\",\"office\":\"a206\",\"incharges\":[{\"_id\":\"584ffed0e120343dd39d600f\",\"position\":\"种植专家\",\"phone\":\"13680654432\",\"spell\":\"xiexiaolong\",\"name\":\"谢小龙\"}]},{\"_id\":\"584ffa91e120343dd39d6005\",\"name\":\"民政部门\",\"desc\":\"民政部门很屌很屌\",\"office\":\"203\",\"incharges\":[{\"name\":\"谢小\",\"spell\":\"xiexiao\",\"phone\":\"131412421\",\"_id\":\"584ffa91e120343dd39d6006\"}]},{\"_id\":\"584fffa2e120343dd39d6010\",\"name\":\"科技部门\",\"desc\":\"科技部门调调的点点滴滴\",\"incharges\":[{\"_id\":\"584fffb2e120343dd39d6012\",\"position\":\"酱油\",\"phone\":\"13580654444\",\"spell\":\"xiexiaolong\",\"name\":\"谢晓龙\"}],\"office\":\"206\"},{\"_id\":\"5857d37ac16412478ee55baf\",\"name\":\"科学部门\",\"desc\":\"科学部门调\",\"office\":\"201\",\"incharges\":[{\"name\":\"谢军令\",\"spell\":\"xiejunling\",\"phone\":\"13580514437\",\"position\":\"经理\",\"_id\":\"5857d37ac16412478ee55bb0\"}]}]}})"
+*************** response log end ***************
+
+[2017-05-31 15:52:07.767] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /admin/kqgl
+request client ip:  ::1
+request query:  {}
+response time: 60
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><meta charset=\"UTF-8\"><title>智慧乡村后台管理系统</title><link rel=\"stylesheet\" href=\"/stylesheets/admin/style.min.css\"><link rel=\"stylesheet\" href=\"/stylesheets/reset.css\"><script src=\"//cdn.bootcss.com/react/15.3.2/react.min.js\"></script><script src=\"//cdn.bootcss.com/react/15.3.2/react-dom.min.js\"></script></head><body><div id=\"page-wrap\"><input id=\"J_page_name\" type=\"hidden\" value=\"kqgl\"><div class=\"header\"><span class=\"title\">于都县岭背镇人民政府管理平台</span></div><div class=\"navs\"><div class=\"groups\"><div class=\"title\">系统设置</div><div class=\"links\"><a id=\"yhgl\" href=\"/admin/yhgl\">用户管理</a><a id=\"bmgl\" href=\"/admin/bmgl\">部门管理</a><a id=\"bmgl\" href=\"/admin/kqgl\">考勤管理</a><a id=\"smsh\" href=\"/admin/smsh\">实名审核</a></div></div><div class=\"groups\"><div class=\"title\">页面管理</div><div class=\"links\"><a id=\"bjwz\" href=\"/admin/bjwz\">新增文章</a><a id=\"home\" href=\"/admin/home\">网站首页</a><a id=\"home\" href=\"/admin/xxzx\">乡贤在线</a><a id=\"jzfp\" href=\"/admin/jzfp\">精准扶贫</a><a id=\"ddjs\" href=\"/admin/ddjs\">党的建设</a><a id=\"wybs\" href=\"/admin/wybs\">我要办事</a><a id=\"zxxf\" href=\"/admin/zxxf\">在线信访</a><a id=\"kjzf\" href=\"/admin/kjzf\">科技致富</a><a id=\"msdy\" href=\"/admin/msdy\">民生答疑</a><a id=\"njzx\" href=\"/admin/njzx\">农技在线</a></div></div><div class=\"groups\"><div class=\"title\">资源空间</div><div class=\"links\"><a id=\"tpgl\" href=\"/admin/tpgl\">图片管理</a><a id=\"spgl\" href=\"/admin/spgl\">视频管理</a><a id=\"ypgl\" href=\"/admin/ypgl\">音频管理</a><a id=\"wdgl\" href=\"/admin/wdgl\">文档管理</a></div></div></div><div class=\"content\"><div class=\"top-title\">考勤管理</div><div id=\"content_holder\"><div class=\"expecting\">功能暂未上线，敬请期待！</div><div class=\"css-loading\"><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div><div class=\"css-dot\"></div></div></div></div><div class=\"footer\"></div><script src=\"/javascripts/admin-signin_manage.js\"></script></div><script src=\"/javascripts/admin.js\"></script></body></html>"
+*************** response log end ***************
+

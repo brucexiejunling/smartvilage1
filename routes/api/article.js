@@ -13,7 +13,12 @@ router.get('/save', articleController.updateArticle);
 router.post('/add', articleController.createArticle);
 router.get('/add', articleController.createArticle);
 
+router.post('/comment', articleController.commentArticle);
+router.get('/comment', articleController.commentArticle);
+
 router.post('/remove', articleController.removeArticle);
 router.get('/remove', articleController.removeArticle);
+
+
 
 module.exports = router;

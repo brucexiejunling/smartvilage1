@@ -75,13 +75,13 @@ app.use(unauthorizeHandler());
 
 
 //强登逻辑验证
-app.use(loginChecker('^/(grzx|fbxf|msdy|smrz|xgzl|bchsb|wddy|wdxf|wdbch|ydbg|xxzx|gzjh|fbjh|gzrz|xrz|tzgg|fbtz|txl)'))
+app.use(loginChecker('^/(grzx|fbxf|msdy|smrz|xgzl|bchsb|wddy|wdxf|wdbch|ydbg|xxzx|kqqd|qdxq|gzjh|fbjh|gzrz|xrz|tzgg|fbtz|txl)'))
 
 //管理员权限验证
 app.use(auth('^/(admin)|(api/[^/]+/(save|remove|add|update|modify))'))
 
 //政府职员身份认证
-app.use(governorChecker('^/(ydbg|gzjh|fbjh|gzrz|xrz|tzgg|fbtz)'));
+app.use(governorChecker('^/(ydbg|gzjh|fbjh|gzrz|xrz|tzgg|fbtz|kqqd|qdxq)'));
 
 //乡贤身份认证
 app.use(townsmenChecker('^/(xxzx|xwz)'));
