@@ -123,7 +123,7 @@ const modifyUser = async (ctx, next) => {
   } else {
     data = ctx.request.body;
   }
-  if(data.password) {
+  if(data.password && data.password.length <= 16) {
     data.password = md5(data.password);
   }
   try {
