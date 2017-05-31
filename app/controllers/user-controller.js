@@ -123,6 +123,9 @@ const modifyUser = async (ctx, next) => {
   } else {
     data = ctx.request.body;
   }
+  if(data.password) {
+    data.password = md5(data.password);
+  }
   try {
     const userId = data._id;
     delete data._id;
