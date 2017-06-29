@@ -10,6 +10,7 @@ let handlerSchema = new mongoose.Schema({
 });
 
 let PlanSchema = new mongoose.Schema({
+    status: {type: mongoose.Schema.Types.Number}, //0有效，-1取消
     publisher: {type: mongoose.Schema.Types.ObjectId, ref: 'User'},
     receiver: {type: mongoose.Schema.Types.ObjectId, ref: 'User'},
     receiverType: {type: Number},
@@ -39,7 +40,7 @@ export function findById(id) {
 }
 
 export function find(query) {
-    return PlanModel.find(query)
+    return PlanModel.find(query).where('status').ne(-1);
 }
 
 export function update(id, data) {

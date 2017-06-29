@@ -9,7 +9,7 @@ let DisasterSchema = new mongoose.Schema({
     title: {type: String},
     content: {type: String},
     imgs: [{type: String}],
-    status: {type: Number}, //0新提交，1. 处理中，2. 已处理
+    status: {type: Number}, //0新提交，1. 处理中，2. 已处理, 3.逻辑删除
     result: {type: String},
     resultImgs: [{type: String}],
     modifier: {type: mongoose.Schema.Types.ObjectId, ref: 'User'},
@@ -29,7 +29,7 @@ function formatDate(date) {
 }
 
 export function find(query) {
-    return DisasterModel.find(query)
+    return DisasterModel.find(query).where('status').gte(0);
 }
 
 export function findById(id) {

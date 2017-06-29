@@ -144,6 +144,9 @@ const getPlans = async (ctx, next) => {
         .limit(pageSize)
         .lean()
         .exec();
+      result.forEach((item)=> {
+        item.isMy = true;
+      })
       ctx.body = {
         total: count,
         data: result

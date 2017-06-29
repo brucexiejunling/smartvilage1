@@ -8,7 +8,7 @@ let ConsultSchema = new mongoose.Schema({
     content: {type: String},
     area: {type: String},
     imgs: [{type: String}],
-    status: {type: Number}, //0新提交，1. 处理中，2. 已处理
+    status: {type: Number}, //0新提交，1. 处理中，2. 已处理, -1. 逻辑删除
     result: {type: String},
     resultImgs: [{type: String}],
     modifier: {type: mongoose.Schema.Types.ObjectId, ref: 'User'},
@@ -31,7 +31,7 @@ export function findById(id) {
 }
 
 export function find(query) {
-    return ConsultModel.find(query)
+    return ConsultModel.find(query).where('status').gte(0);
 }
 
 export function update(id, data) {

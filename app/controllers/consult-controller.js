@@ -8,6 +8,7 @@ import {
 const ApiError = require('../error/api-error');
 const ApiErrorNames = require('../error/api-error-names');
 const userController = require('./user-controller');
+const messageController = require('./message-controller');
 const userModel = require('../models/user-model');
 
 const selects = '';
@@ -171,6 +172,15 @@ const replyConsult = async (ctx, next) => {
           ctx.body = {
             data: result
           };
+          const issue = await findById(id)
+            .populate('publisher', 'name phone')
+            .lean()
+            .exec();
+          messageController.sendReplyNotice(
+            issue.publisher.phone,
+            issue.publisher.name,
+            '在线信访'
+          );
         } catch (e) {
           throw new ApiError(ApiErrorNames.UNKNOW_ERROR);
         }

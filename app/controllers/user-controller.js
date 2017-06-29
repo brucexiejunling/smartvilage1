@@ -25,6 +25,10 @@ const encode = str => {
   });
 };
 const getUser = async (ctx, next) => {
+  //测试 
+  ctx.session.userId = '5900b2cbdc3bfb20933191c7';
+  // ctx.session.userId = '592306822ec3727cb2607352'; //孟小姐
+
   const userId = ctx.session.userId;
   if (!userId) {
     throw new ApiError(ApiErrorNames.USER_NOT_LOGIN);

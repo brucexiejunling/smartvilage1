@@ -101,7 +101,7 @@ const listFiles = async(ctx, next)=> {
         try {
             files = fs.readdirSync(filepath)
             files.forEach((file)=> {
-                list.push({url: `${config.hostname}/${subPath}/${dir}/${file}`})
+                list.unshift({url: `${config.hostname}/${subPath}/${dir}/${file}`})
             })
         } catch (e) {
             ctx.body = {
@@ -109,7 +109,7 @@ const listFiles = async(ctx, next)=> {
                 total: 0
             }
         }
-    })
+    });
     //分页
     const offset = ctx.query.offset ? parseInt(ctx.query.offset) : 0, pageSize = ctx.query.pageSize ? parseInt(ctx.query.pageSize) : list.length;
     const newList = list.slice(offset, offset + pageSize)

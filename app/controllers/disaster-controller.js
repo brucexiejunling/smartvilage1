@@ -7,6 +7,7 @@ import {
 } from '../models/disaster-model';
 const ApiError = require('../error/api-error');
 const ApiErrorNames = require('../error/api-error-names');
+const messageController = require('./message-controller');
 const userController = require('./user-controller');
 const userModel = require('../models/user-model');
 const departmentModel = require('../models/department-model');
@@ -172,6 +173,15 @@ const replyDisaster = async (ctx, next) => {
           ctx.body = {
             data: result
           };
+          const issue = await findById(id)
+            .populate('publisher', 'name phone')
+            .lean()
+            .exec();
+          messageController.sendReplyNotice(
+            issue.publisher.phone,
+            issue.publisher.name,
+            '病虫害上报'
+          );
         } catch (e) {
           throw new ApiError(ApiErrorNames.UNKNOW_ERROR);
         }
@@ -215,7 +225,7 @@ const createDisaster = async (ctx, next) => {
           const result = await create(data);
           ctx.body = result;
         } else {
-          throw new ApiError(ApiErrorNames.UNKNOW_ERROR);
+          throw new ApiError(ApiErrorNames.DEPARTMENT_NOT_EXIST);
         }
       } catch (e) {
         throw new ApiError(ApiErrorNames.UNKNOW_ERROR);

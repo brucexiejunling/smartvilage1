@@ -13,38 +13,32 @@ const userModel = require('../models/user-model');
 
 const setRecord = async (ctx, next) => {
   let signinTime, signoutTime;
-  // 测试
-  // ctx.session.userId = '58529ae8ae6fd22d9d9cd824';
 
-  if (!ctx.session.userId) {
-    throw new ApiError(ApiErrorNames.USER_NOT_LOGIN);
+  if (ctx.method === 'GET') {
+    signinTime = ctx.request.query.signinTime;
+    signoutTime = ctx.request.query.signoutTime;
   } else {
-    if (ctx.method === 'GET') {
-      signinTime = ctx.request.query.signinTime;
-      signoutTime = ctx.request.query.signoutTime;
-    } else {
-      signinTime = ctx.request.body.signinTime;
-      signoutTime = ctx.request.body.signoutTime;
-    }
-    if (signinTime && signoutTime) {
-      try {
-        let result = await findOne({ isSystem: true }).lean().exec();
-        if (!result) {
-          result = await create({
-            isSystem: true,
-            signinTime: signinTime,
-            signoutTime: signoutTime
-          });
-        } else {
-          result = await update(result._id, { signinTime, signoutTime });
-        }
-        ctx.body = result;
-      } catch (e) {
-        throw new ApiError(ApiErrorNames.UNKNOW_ERROR);
+    signinTime = ctx.request.body.signinTime;
+    signoutTime = ctx.request.body.signoutTime;
+  }
+  if (signinTime && signoutTime) {
+    try {
+      let result = await findOne({ isSystem: true }).lean().exec();
+      if (!result) {
+        result = await create({
+          isSystem: true,
+          signinTime: signinTime,
+          signoutTime: signoutTime
+        });
+      } else {
+        result = await update(result._id, { signinTime, signoutTime });
       }
-    } else {
-      throw new ApiError(ApiErrorNames.PARAM_ILLEGAL);
+      ctx.body = result;
+    } catch (e) {
+      throw new ApiError(ApiErrorNames.UNKNOW_ERROR);
     }
+  } else {
+    throw new ApiError(ApiErrorNames.PARAM_ILLEGAL);
   }
 };
 

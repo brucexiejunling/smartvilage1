@@ -1,4 +1,5 @@
 import {isUserExist} from './user-controller'
+const config = require('../../config/index');
 const TopClient = require('../sdk/alidayu/topClient').TopClient;
 const ApiError = require('../error/api-error');
 const ApiErrorNames = require('../error/api-error-names');
@@ -16,6 +17,26 @@ const getRandomCaptcha = ()=> {
         rdm += parseInt(Math.random()*10)
     }
     return rdm;
+}
+
+export function sendReplyNotice(phone, name, issue) {
+    const url = config.url;
+    return new Promise((resolve, reject)=> {
+        client.execute('alibaba.aliqin.fc.sms.num.send', {
+            'extend': '123456',
+            'sms_type': 'normal',
+            'sms_free_sign_name': '子墨文化智慧',
+            'sms_param': JSON.stringify({name, issue, url}),
+            'rec_num': phone,
+            'sms_template_code': 'SMS_73245006'
+        }, (error, response)=> {
+            if (!error) {
+                resolve(response)
+            } else {
+                reject(error)
+            }
+        })
+    })
 }
 
 const sendCaptchaAsync = (phone, code)=> {
@@ -46,7 +67,6 @@ export async function sendCaptchaMsg(ctx, next) {
         phone = ctx.request.body.phone
         action = ctx.request.body.action
     }
-
     if(!phone) {
         throw new ApiError(ApiErrorNames.PARAM_ILLEGAL)
     }
